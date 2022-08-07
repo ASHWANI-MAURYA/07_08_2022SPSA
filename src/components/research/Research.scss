@@ -1,0 +1,97 @@
+.research-projects-cards-section {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+}
+
+.research-projects-card {
+  background: #fff;
+  border: 1px solid #ebe8e8;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 3px 26px rgb(147 144 144 / 36%);
+}
+
+.fellowship-grid-section {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.fellowship-card {
+  background: #fff;
+  border: 1px solid #ebe8e8;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 3px 26px rgb(147 144 144 / 36%);
+}
+
+.fellowship-card-title {
+  font-family: 'DINNextMedium';
+  color: blue;
+}
+
+.fellowship-card ul {
+  font-size: 16px;
+}
+.fellowship-section-blue {
+  background: #e3f3ff;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0px 3px 26px rgb(147 144 144 / 36%);
+}
+.fellowship-section-green {
+  background: #eaf8f7;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0px 3px 26px rgb(147 144 144 / 36%);
+}
+.fellowship-section-pink {
+  background: #fceff3;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0px 3px 26px rgb(147 144 144 / 36%);
+}
+.fellowship-section-blue p {
+  padding-left: 20px;
+}
+.fellowship-section-green p {
+  padding-left: 20px;
+}
+.fellowship-section-pink p {
+  padding-left: 20px;
+}
+.business-incubator-image-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+// Mobile View
+@media screen and (max-width: 576px) {
+  .research-projects-heading-mobile {
+    text-align: center;
+  }
+  .research-projects-card {
+    margin: 0 20px;
+  }
+  .fellowship-grid-section {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+  .fellowship-section-blue p {
+    padding-left: 0px;
+  }
+  .fellowship-section-green p {
+    padding-left: 0px;
+  }
+  .fellowship-section-pink p {
+    padding-left: 0px;
+  }
+}

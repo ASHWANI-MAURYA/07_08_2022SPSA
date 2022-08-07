@@ -1,0 +1,499 @@
+@import '../../variables';
+
+.banner-description {
+  text-align: left !important;
+  width: 40% !important;
+}
+
+.legend-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  width: fit-content;
+  background: #00000090;
+  padding: 12px;
+  font-weight: 400;
+}
+
+.legend-subtitle {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #00000090;
+  padding: 12px;
+  width: 90%;
+}
+
+.button-blue {
+  background: $blue-font-color;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.button-blue:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.button-white {
+  background: #ffffff;
+  color: $blue-font-color;
+  font-size: 12px;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.button-white:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.learn-more {
+  width: 160px;
+  position: absolute;
+  top: 637px !important;
+  left: 14%;
+  font-size: 16px;
+  font-family: 'DINNextBold';
+  padding: 7px 0 5px !important;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner-green-text {
+  background-color: #04b9ac;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  padding: 12px 24px 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 60px 0 15px;
+  position: absolute;
+  top: 180px;
+  font-family: 'DINNextBold';
+}
+
+.banner-blue-text {
+  background-color: #0b38f2;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  padding: 12px 24px 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+  top: 323px;
+  position: absolute;
+  font-family: 'DINNextBold';
+}
+
+.home-page-banner-text-white {
+  top: 330px !important;
+  left: 12%;
+  width: -moz-fit-content;
+  width: 37%;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 12px 24px 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+  position: absolute;
+  font-family: 'DINNextBold';
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.home-page-banner-text-yellow {
+  left: 12% !important;
+  font-size: 24px;
+  font-family: 'DINNextBold';
+  font-weight: 700;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fece42;
+  padding: 0 24px 12px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 60px 0 15px;
+  position: absolute;
+  top: 240px;
+  text-transform: uppercase;
+}
+
+.banner-home-page {
+  width: 100%;
+}
+
+.banner2 {
+  width: 100%;
+}
+
+.bannersubpage-div {
+  min-height: 420px;
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .bannersubpage-div {
+    min-height: 569.8px;
+  }
+  .home-page-banner-text-white {
+    top: 516px !important;
+    left: 12%;
+    width: -moz-fit-content;
+    width: 50%;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 12px 24px 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    position: absolute;
+    font-family: 'DINNextBold';
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 60px;
+  }
+
+  .home-page-banner-text-yellow {
+    left: 12% !important;
+    font-size: 42px;
+    font-family: 'DINNextBold';
+    font-weight: 700;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fece42;
+    padding: 0 24px 10px !important;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 60px 0 15px;
+    position: absolute;
+    top: 364px;
+    text-transform: uppercase;
+  }
+  .learn-more {
+    width: 250px;
+    position: absolute;
+    top: 725px !important;
+    left: 13%;
+    font-size: 28px;
+    font-family: 'DINNextBold';
+    padding-bottom: 10px;
+  }
+  .banner-green-text {
+    background-color: #04b9ac;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fff;
+    font-size: 84px;
+    font-weight: 700;
+    padding: 12px 24px 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 60px 0 15px;
+    position: absolute;
+    top: 366px;
+    font-family: 'DINNextBold';
+  }
+
+  .banner-blue-text {
+    background-color: #0b38f2;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    padding: 12px 24px 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    top: 580px;
+    position: absolute;
+    font-family: 'DINNextBold';
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+  .home-page-banner-text-yellow {
+    left: 12% !important;
+    font-size: 24px;
+    font-family: 'DINNextBold';
+    font-weight: 700;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fece42;
+    padding: 0 24px 12px;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 60px 0 15px;
+    position: absolute;
+    top: 200px;
+    text-transform: uppercase;
+  }
+  .home-page-banner-text-white {
+    top: 320px !important;
+    left: 12%;
+    width: -moz-fit-content;
+    width: 37%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 12px 24px 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    position: absolute;
+    font-family: 'DINNextBold';
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 50px;
+  }
+  .learn-more {
+    width: 160px;
+    position: absolute;
+    top: 478px !important;
+    left: 13.7%;
+    font-size: 16px;
+    font-family: 'DINNextBold';
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .home-page-banner-text-white {
+    top: 300px !important;
+    left: 12%;
+    width: -moz-fit-content;
+    width: 49%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px 24px 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    position: absolute;
+    font-family: 'DINNextBold';
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 50px;
+  }
+  .home-page-banner-text-yellow {
+    left: 12% !important;
+    font-size: 24px;
+    font-family: 'DINNextBold';
+    font-weight: 700;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fece42;
+    padding: 0 24px 12px;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 60px 0 15px;
+    position: absolute;
+    top: 205px;
+    text-transform: uppercase;
+  }
+  .learn-more {
+    width: 160px;
+    position: absolute;
+    top: 455px !important;
+    left: 13% !important;
+    font-size: 16px;
+    font-family: 'DINNextBold';
+    padding-bottom: 10px;
+  }
+  .bannersubpage-div {
+    min-height: 367px !important;
+  }
+}
+
+// Mini Laptop - 1024
+// @media only screen and (min-width: 1000px) and (max-width: 1299px) {
+@media only screen and (min-width: 1000px) and (max-width: 1115px) {
+  .home-page-banner-text-white {
+    top: 275px !important;
+    left: 9%;
+    width: -moz-fit-content;
+    width: 55%;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 12px 24px 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    position: absolute;
+    font-family: 'DINNextBold';
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .home-page-banner-text-yellow {
+    left: 9% !important;
+    font-size: 24px;
+    font-family: 'DINNextBold';
+    font-weight: 700;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fece42;
+    padding: 0 24px 10px !important;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 60px 0 15px;
+    position: absolute;
+    top: 180px;
+    text-transform: uppercase;
+  }
+  .learn-more {
+    width: 145px;
+    position: absolute;
+    top: 400px !important;
+    left: 11%;
+    font-size: 14px;
+    font-family: 'DINNextBold';
+    padding-bottom: 10px;
+  }
+  .banner-description {
+    text-align: left !important;
+    width: 70% !important;
+  }
+  .bannersubpage-div {
+    min-height: 285px;
+  }
+}
+
+@media only screen and (min-width: 1116px) and (max-width: 1299px) {
+  .home-page-banner-text-white {
+    top: 285px !important;
+    left: 9%;
+    width: -moz-fit-content;
+    width: 55%;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 12px 24px 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    position: absolute;
+    font-family: 'DINNextBold';
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .home-page-banner-text-yellow {
+    left: 9% !important;
+    font-size: 24px;
+    font-family: 'DINNextBold';
+    font-weight: 700;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fece42;
+    padding: 0 24px 10px !important;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 60px 0 15px;
+    position: absolute;
+    top: 190px;
+    text-transform: uppercase;
+  }
+  .learn-more {
+    width: 145px;
+    position: absolute;
+    top: 403px !important;
+    left: 11%;
+    font-size: 14px;
+    font-family: 'DINNextBold';
+    padding-bottom: 10px;
+  }
+  .banner-description {
+    text-align: left !important;
+    width: 70% !important;
+  }
+  .bannersubpage-div {
+    min-height: 285px;
+  }
+}
+
+// Mobile View
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 1570px;
+    margin: 0 auto;
+  }
+  .banner {
+    width: 100%;
+    height: auto;
+  }
+  .banner-home-page {
+    width: 100%;
+  }
+  .banner-green-text {
+    font-size: 20px;
+    top: 26px;
+  }
+
+  .banner-blue-text {
+    font-size: 20px;
+    top: 135px;
+  }
+
+  .home-page-banner-text-yellow {
+    left: 0% !important;
+    font-size: 16px;
+    top: 92px;
+  }
+
+  .home-page-banner-text-white {
+    top: 175px !important;
+    left: 0%;
+    width: -moz-fit-content;
+    width: 61%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 24px 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    position: absolute;
+    font-family: 'DINNextBold';
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .learn-more {
+    width: 122px;
+    position: absolute;
+    top: 320px !important;
+    left: 7%;
+    font-size: 14px;
+    font-family: 'DINNextBold';
+    padding-bottom: 5px;
+    padding-top: 7px;
+  }
+  .bannersubpage-div {
+    min-height: 109px;
+  }
+}

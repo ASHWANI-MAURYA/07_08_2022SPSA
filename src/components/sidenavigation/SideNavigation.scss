@@ -1,0 +1,163 @@
+.side-navigation {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  width: 20%;
+}
+
+.container.navigation-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  position: sticky;
+  top: 12px;
+}
+
+.side-navigation .accordion-inner-item {
+  cursor: pointer;
+}
+
+.side-navigation .panel {
+  width: 100%;
+}
+
+a.navigation-hyperlinks {
+  text-decoration: none;
+  width: 100%;
+}
+
+.navigation-item {
+  color: #7f7f7f;
+  margin: 24px 0 6px;
+}
+
+.accordion {
+  color: #7f7f7f;
+  background: none;
+  border-bottom: 1px solid #e0e0e0 !important;
+  cursor: pointer;
+  padding: 18px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: 'DINNext';
+  transition: 0.4s;
+  text-transform: uppercase;
+}
+
+.side-navigation .active,
+.accordion:hover {
+  color: #0b38f2;
+  font-size: 16px;
+  font-family: 'DINNextBold';
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.side-navigation .active:after {
+  content: '\2212';
+}
+
+.panel {
+  padding: 0 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-inner-item {
+  padding: 14px 0 14px 14px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #7f7f7f;
+}
+
+.navigation-list-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e0e0e0;
+  width: 100%;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+.navigation-active-item {
+  color: #0b38f2;
+  font-weight: 700;
+  font-family: 'DINNextBold';
+}
+
+div .accordion-inner-item:last-child {
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .container {
+    max-width: 1570px;
+    margin: 0 auto;
+  }
+  .navigation-list-title {
+    font-size: 32px !important;
+  }
+  .container.navigation-list {
+    font-size: 28px;
+  }
+  .side-navigation .accordion {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  .side-navigation .accordion-inner-item {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  .navigation-list-title {
+    padding-bottom: 65px;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .container {
+    max-width: 1270px;
+    margin: 0 auto;
+  }
+}
+
+// Mini Laptop - 1024
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .side-navigation {
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+    width: 30%;
+  }
+}
+
+// Mobile View
+@media screen and (max-width: 568px) {
+  .container {
+    max-width: 1570px;
+    margin: 0 auto;
+  }
+  .side-navigation {
+    display: none;
+  }
+}

@@ -1,0 +1,46 @@
+.programs-accordion-element {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2px 0;
+  font-family: 'DINNext';
+  align-items: center;
+  border-bottom: 1px solid #bebcbc;
+}
+
+.programs-accordion-icon-div {
+  width: 40px;
+  font-size: 30px;
+  color: blue;
+  cursor: pointer;
+  text-align: center;
+}
+
+.programs-accordion-content-div {
+  width: 100%;
+  font-family: 'DINNextBold';
+  text-transform: uppercase;
+}
+
+.programs-accordion-element-panel {
+  max-height: 0;
+  display: none;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+button.BrainhubCarousel__arrows {
+  visibility: hidden !important;
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .programs-accordion-content-div {
+    font-size: 28px;
+  }
+  .programs-accordion-element-panel {
+    font-size: 24px;
+  }
+  .programs-accordion-element {
+    padding: 15px 0;
+  }
+}

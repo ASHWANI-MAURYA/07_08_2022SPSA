@@ -1,0 +1,345 @@
+.course-content {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.coursepage-title {
+  text-transform: uppercase;
+  color: #0b38f2;
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 30px;
+  font-family: 'DINNEXTBOLD';
+  letter-spacing: 1px;
+}
+.course-title {
+  font-size: 40px;
+  color: #0b38f2;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.course-duration-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.coursepage-course-duration {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  align-items: center;
+  color: #3b3a42;
+  font-size: 16px;
+  margin-right: 40px;
+}
+.course-duration-section-subclass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.course-duration-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.breadcrumb-active {
+  color: #0b38f2;
+}
+
+button.button-blue.learn-more.apply-now {
+  position: absolute;
+  right: 40px;
+  bottom: -15px;
+  text-transform: uppercase;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.button-white-get-brochure {
+  width: 160px;
+  height: 42px;
+  border-radius: 21px;
+  background: #fff;
+  border: 1px solid #0b38f2;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0b38f2;
+  font-size: 16px;
+  font-family: 'DINNextBold';
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.button-white-apply-now {
+  width: 160px;
+  height: 42px;
+  border-radius: 21px;
+  background: #0b38f2;
+  border: 1px solid #0b38f2;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'DINNextBold';
+  cursor: pointer;
+}
+
+.courses-heading {
+  color: #1e1e23;
+  font-size: 24px;
+  font-family: 'DINNextBold';
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  scroll-margin-top: 5rem;
+}
+
+.general-desc {
+  font-size: 16px;
+}
+
+.btech-row-class {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.hod-designation {
+  line-height: 19px;
+}
+
+.hod-pic-section {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.hod-pic {
+  width: 236px;
+  height: 266px;
+}
+
+.hod-name {
+  margin: 15px 0 0px;
+  color: #0b38f2;
+  font-size: 16px;
+  font-family: 'DINNextBold';
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .container {
+    max-width: 1570px;
+    margin: 0 auto;
+  }
+  .expert-faculty-section {
+    background: #f7f8fc;
+    padding: 50px;
+    margin: 0 -40px;
+  }
+  .tab button {
+    font-size: 38px;
+  }
+  .button-white-apply-now {
+    font-size: 24px;
+    width: 210px;
+    height: 80px;
+    border-radius: 45px;
+  }
+  .coursepage-course-duration {
+    font-size: 28px;
+  }
+  .course-duration-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .button-white-get-brochure {
+    width: 210px;
+    height: 80px;
+    border-radius: 45px;
+    background: #fff;
+    border: 1px solid #0b38f2;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0b38f2;
+    font-size: 24px;
+    font-family: 'DINNextBold';
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  .coursepage-title {
+    text-transform: uppercase;
+    color: #0b38f2;
+    font-size: 63px;
+  }
+  .courses-heading {
+    color: #1e1e23;
+    font-size: 34px;
+  }
+  .general-desc {
+    font-size: 28px;
+  }
+  .hod-name {
+    font-size: 24px;
+  }
+  .hod-designation {
+    font-size: 22px;
+  }
+  h6.eligibility-title {
+    font-size: 34px !important;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+  .expert-faculty-section {
+    background: #f7f8fc;
+    padding: 50px;
+    margin: 0 -40px;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .container {
+    max-width: 1270px;
+    margin: 0 auto;
+  }
+  .expert-faculty-section {
+    background: #f7f8fc;
+    padding: 50px;
+    margin: 0 -40px;
+  }
+}
+
+// Mini Laptop - 1024
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .coursepage-course-duration {
+    font-size: 12px;
+  }
+  .expert-faculty-section {
+    background: #f7f8fc;
+    padding: 50px;
+    margin: 0 -40px;
+  }
+}
+
+// Mobile View
+@media screen and (max-width: 576px) {
+  .courses-heading {
+    color: #1e1e23;
+    font-size: 24px;
+    font-family: 'DINNextBold';
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  .coursepage-title {
+    text-align: center;
+    font-size: 20px;
+  }
+  .course-duration-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .course-duration-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: -17px !important;
+  }
+  .coursepage-course-duration {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: center;
+    color: #3b3a42;
+    font-size: 13px;
+    margin-right: 0;
+  }
+  .course-duration-section-subclass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .course-duration-section-subclass:nth-child(2) {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .button-white-apply-now {
+    margin: 25px 0;
+  }
+  .button-white-get-brochure {
+    margin: 25px 0 12.5px 0;
+  }
+  .btech-row-class {
+    flex-direction: column;
+  }
+  .hod-pic {
+    width: 100%;
+    height: 100%;
+  }
+  .hod-designation {
+    margin-bottom: 25px;
+  }
+  .expert-faculty-section {
+    background: #f7f8fc;
+    padding: 60px;
+    margin: 0;
+  }
+}

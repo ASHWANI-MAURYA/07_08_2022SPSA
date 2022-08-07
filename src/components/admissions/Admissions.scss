@@ -1,0 +1,621 @@
+h6.title-head {
+  margin: 14px 20px;
+  font-size: 21px;
+  color: #0b38f2;
+  font-family: 'DINNextBold';
+}
+
+p.mtech-desc {
+  margin: 0 20px;
+  font-size: 18px;
+  width: 85%;
+}
+.mtech-points {
+  text-align: left;
+  margin: 14px;
+  min-height: 580px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ebe8e8;
+  box-shadow: 0px 3px 26px rgba(147, 144, 144, 0.24);
+}
+.why-spsu-points {
+  text-align: left;
+  margin: 14px;
+  min-height: 580px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ebe8e8;
+  box-shadow: 0px 3px 26px rgba(147, 144, 144, 0.24);
+}
+
+p.highest {
+  color: #0b38f2;
+  margin: 15px 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+p.avg-pack {
+  margin: 10px 20px;
+  font-size: 18px;
+}
+
+.join-mtech .heading,
+.heading-spsu,
+.heading-highest,
+.admission-step-title {
+  font-size: 28px;
+  color: #0b1f84;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'DINNextBold';
+  margin-top: 50px;
+}
+.join-mtech .heading::after,
+.heading-spsu::after,
+.heading-highest::after,
+.admission-step-title::after {
+  content: '';
+  width: 66px;
+  height: 8px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAAAGAQMAAAC1syEmAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFBLmsShRvNAAAAAxJREFUeJxjYKAUAAAAQgAB4IF6KAAAAABJRU5ErkJggg==);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.appply-for {
+  background: #0b38f2;
+  min-width: 181px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 9px 20px 6px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  font-family: 'DINNextBold';
+  text-align: center;
+  justify-content: center;
+}
+.whyspsu .news-articles {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+}
+
+.join-mtech-section {
+  padding: 40px 0 70px 0;
+  background: #f7f8fc;
+}
+.article-desc {
+  padding: 24px;
+  width: auto;
+}
+.article-desc h6 {
+  font-size: 20px;
+  font-family: 'DINNextBold';
+}
+p.desc {
+  color: #3b3a42;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.highest-package {
+  .brands img {
+    padding: 3px;
+  }
+}
+.highest-salary-section {
+  background: #f7f7f7;
+  padding: 60px 0;
+}
+h3.heading-highest {
+  margin: 0;
+}
+
+p.subtitle {
+  font-size: 22px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.spsat-cards {
+  display: flex;
+}
+
+.spsat-card {
+  text-align: left;
+}
+
+img.bottom-border {
+  width: 90%;
+}
+
+h6.sno {
+  margin: 0;
+  font-size: 24px;
+  color: #7f7f7f;
+  font-family: 'DINNextBold';
+}
+
+p.spsat-desc {
+  font-size: 20px;
+  color: #1e1e23;
+  width: 70%;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 1px;
+  font-family: 'DINNextBold';
+  line-height: 23px;
+}
+.admission-step-section {
+  text-align: center;
+}
+.admission-step-tab-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+button.admission-step-tab {
+  width: 100%;
+  border: none;
+}
+.spsat-card img {
+  height: 15px;
+}
+.faq-section {
+  padding: 60px 0;
+  text-align: left;
+}
+.faq .acc-text:first-child {
+  border-top: 1px solid #707070 !important;
+}
+.faq {
+  margin-top: 25px;
+}
+.new-blue {
+  margin-top: 6px !important;
+}
+.banner-admission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+  text-align: left;
+}
+.banner-left {
+  width: 45%;
+}
+.banner-right {
+  width: 45%;
+}
+.banner-adm-section {
+  background-image: url('../../images/graduation-admission.png');
+  background-size: 100% 100%;
+}
+.banner-blues-text {
+  background-color: #0b38f2;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  padding: 12px 12px 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'DINNextBold';
+}
+.banner-greens-text {
+  background-color: #04b9ac;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 12px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0px 0 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.enroll-form {
+  background: #c7d7ed;
+  padding: 30px 40px;
+  border-radius: 8px;
+}
+
+h5.form-heading {
+  color: #0b38f2;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 19px;
+  font-family: 'DINNextBold';
+  letter-spacing: 2px;
+}
+
+.enroll-form input {
+  width: 100%;
+  min-height: 45px;
+  margin-bottom: 24px;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  padding: 0 17px;
+}
+
+.contact-number {
+  display: flex;
+}
+
+select.phone-code {
+  background: #fff;
+  border: none;
+  height: 45px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  font-size: 16px;
+}
+.enroll-form input.check {
+  width: auto;
+  min-height: auto;
+  transform: scale(1.7);
+  margin-right: 17px;
+  background: #fff !important;
+  border: none;
+  margin-top: 14px;
+}
+
+select.select-opt {
+  width: 48%;
+  background: #fff;
+  border: none;
+  min-height: 45px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: gray;
+  padding: 0 17px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coursess {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.aligned-right {
+  width: auto;
+  display: flex;
+  margin-left: auto;
+}
+.enroll-form .mobileno {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: 3px;
+}
+.agreement {
+  font-size: 14px;
+  font-weight: 200;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.campus-amenities-section {
+  margin-top: 60px;
+}
+
+.brands-target {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 20px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.brands-target img {
+  width: 100px !important;
+}
+.brands-targets {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.admissions-joinmtech-carousel-top-image {
+  height: auto !important;
+}
+
+.desktop {
+  visibility: visible;
+}
+
+.mobile {
+  visibility: hidden;
+  display: none !important;
+}
+
+.highest-package .brands img {
+  padding: 17px;
+}
+.checkbox-text {
+  margin-top: -13px;
+}
+.spsat-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.feesstructurepdf {
+  height: 1530px !important;
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .container {
+    max-width: 1570px;
+    margin: 0 auto;
+  }
+  .mtech-points {
+    text-align: left;
+    box-shadow: 0 3px 6px #00000033;
+    margin: 14px;
+    min-height: 650px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  .why-spsu-points {
+    text-align: left;
+    box-shadow: 0 3px 6px #00000033;
+    margin: 14px;
+    min-height: 650px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  .checkbox-text {
+    margin-top: -11px;
+  }
+  .feesstructurepdf {
+    height: 2100px !important;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+  .checkbox-text {
+    margin-top: -11px !important;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .container {
+    max-width: 1270px;
+    margin: 0 auto;
+  }
+  .checkbox-text {
+    margin-top: -11px;
+  }
+}
+
+// Mini Laptop - 1024
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  .checkbox-text {
+    margin-top: -11px;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .brands-target {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20px;
+  }
+  .brands-targets {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .brands-target img {
+    width: 70% !important;
+  }
+  .brands-targets img {
+    width: 70% !important;
+  }
+  .mtech-points {
+    text-align: left;
+    box-shadow: 0 3px 6px #00000033;
+    margin: 14px;
+    min-height: 650px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  .why-spsu-points {
+    text-align: left;
+    box-shadow: 0 3px 6px #00000033;
+    margin: 14px;
+    min-height: 650px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  .whyspsu .news-articles {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .feesstructurepdf {
+    height: 850px !important;
+  }
+}
+
+//Mobile View
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .banner-admission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    text-align: left;
+    flex-direction: column;
+  }
+  .banner-left {
+    width: 100%;
+  }
+  .banner-right {
+    width: 100%;
+  }
+  .banner-admission-mobile {
+    display: contents;
+  }
+  .banner-admission {
+    display: none;
+    top: 25px;
+    position: absolute;
+  }
+  .desktop {
+    visibility: hidden;
+    display: none !important;
+  }
+
+  .mobile {
+    visibility: visible;
+    display: block !important;
+  }
+  .spsat-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+  }
+  p.subtitle {
+    font-size: 22px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aligned-right {
+    width: auto;
+    display: flex;
+    /* margin-left: auto; */
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .agreement {
+    font-size: 14px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+  .banner-blues-text {
+    background-color: #0b38f2;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px 12px 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'DINNextBold';
+  }
+  .banner-adm-section {
+    background-image: url('../../images/graduation-admission.png');
+    background-size: 100% 100%;
+  }
+  .banner-greens-text {
+    background-color: #04b9ac;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 2px 12px;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0px 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .highest-package .brands img {
+    padding: 3px;
+    width: 30% !important;
+  }
+  .mtech-points {
+    text-align: left;
+    margin: 14px;
+    min-height: 585px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #ebe8e8;
+    box-shadow: 0px 3px 26px rgba(147, 144, 144, 0.24);
+  }
+  .why-spsu-points {
+    text-align: left;
+    margin: 14px;
+    min-height: 420px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #ebe8e8;
+    box-shadow: 0px 3px 26px rgba(147, 144, 144, 0.24);
+  }
+  h5.form-heading {
+    text-align: left;
+    color: #0b38f2;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 19px;
+    font-family: 'DINNextBold';
+    letter-spacing: 2px;
+  }
+  .admissions-page-general-section {
+    padding: 0 !important;
+  }
+  .enroll-form {
+    border-radius: 0;
+  }
+  .spsat-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+  }
+  .admission-step {
+    margin-bottom: 40px;
+  }
+  .feesstructurepdf {
+    height: 650px !important;
+  }
+}
+
+.avg-pack {
+  color: #000;
+}

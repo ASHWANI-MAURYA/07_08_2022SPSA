@@ -1,0 +1,156 @@
+.aiml-section {
+  margin-bottom: 7rem;
+  margin-top: 4rem;
+}
+
+.specialization-aiml-section-full {
+  margin: 60px 0 0 60px;
+  background-color: #eff7fd;
+  position: absolute;
+  width: 69.3%;
+  padding: 20px 40px 40px 365px;
+  border-radius: 8px;
+}
+
+.aiml-section-xebia-logo {
+  width: 90px;
+  margin-top: -8px;
+}
+.aiml-section-intel-logo {
+  width: 90px;
+  margin-top: -8px;
+}
+.specialization-cement-techology-section {
+  margin-top: 40px;
+}
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .aiml-section {
+    margin-bottom: 7rem;
+    margin-top: 4rem;
+  }
+
+  .specialization-aiml-section-full {
+    margin: 327px 0 0 60px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 69.3%;
+    padding: 20px 40px 40px 40px;
+    border-radius: 8px;
+  }
+  .aiml-section-open {
+    margin-bottom: 67rem;
+  }
+  .aiml-section-close {
+    margin-bottom: 8rem !important;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+  .aiml-section {
+    margin-bottom: 7rem;
+    margin-top: 4rem;
+  }
+
+  .specialization-aiml-section-full {
+    margin: 327px 0 0 60px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 69.3%;
+    padding: 20px 40px 40px 40px;
+    border-radius: 8px;
+  }
+  .aiml-section-open {
+    margin-bottom: 67rem;
+  }
+  .aiml-section-close {
+    margin-bottom: 8rem !important;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .aiml-section {
+    margin-bottom: 7rem;
+    margin-top: 4rem;
+  }
+
+  .specialization-aiml-section-full {
+    margin: 327px 0 0 60px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 69.3%;
+    padding: 20px 40px 40px 40px;
+    border-radius: 8px;
+  }
+  .aiml-section-open {
+    margin-bottom: 67rem;
+  }
+  .aiml-section-close {
+    margin-bottom: 8rem !important;
+  }
+}
+
+// Mini Laptop - 1024
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  .aiml-section {
+    margin-bottom: 18rem;
+    margin-top: 4rem;
+  }
+
+  .specialization-aiml-section-full {
+    margin: 327px 0 0 60px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 53.3%;
+    padding: 20px 40px 40px 40px;
+    border-radius: 8px;
+  }
+
+  .aiml-section-open {
+    margin-bottom: 92rem;
+  }
+  .aiml-section-close {
+    margin-bottom: 18rem !important;
+  }
+}
+
+// Mobile View
+@media screen and (max-width: 576px) {
+  .aiml-section {
+    margin-bottom: 7rem;
+    margin-top: 4rem;
+  }
+  .specialization-aiml-section-right {
+    margin: 60px 0 0 0px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 94% !important;
+    padding: 120px 40px 20px 31px;
+  }
+  .specialization-aiml-section-full {
+    margin: 36rem 0 0 0px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 94%;
+    padding: 20px 40px 40px 40px;
+    border-radius: 8px;
+  }
+  .aiml-section-open {
+    margin-bottom: 108rem;
+  }
+  .aiml-section-close {
+    margin-bottom: 7rem !important;
+  }
+
+  .aiml-section-logo-section {
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+  }
+  .aiml-section-xebia-logo {
+    width: 90px;
+    margin-top: 2px;
+  }
+  .aiml-section-intel-logo {
+    width: 90px;
+    margin-top: -5px;
+  }
+}

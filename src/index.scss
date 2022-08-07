@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'DINNext', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  font-family: 'DINNext';
+}
+
+code {
+  font-family: 'DINNext', 'Roboto';
+}
+@font-face {
+  font-family: 'DINNext';
+  src: url('fonts/DIN Next LT Pro - Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DINNextMedium';
+  src: url('fonts/DIN Next LT Pro - Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DINNextBold';
+  src: url('fonts/DIN Next LT Pro - Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #26257c;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #26257c;
+  background-color: #26257c;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #0b38f2 !important;
+}
+
+.flickity-page-dot.is-selected {
+  background: #0b38f2 !important;
+}
+
+.table > :not(:first-child) {
+  border-top: none !important;
+}
+
+.table > thead {
+  vertical-align: bottom;
+  font-size: 16px;
+  font-family: 'DINNextMedium';
+  border-top: 1px solid #f7f7f7 !important;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  color: #3b3a42 !important;
+  background-color: #fff !important;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border: none !important;
+  padding: 20px 12px !important;
+}
+
+.table-bordered {
+  border-bottom: none !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #fff !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #efeded !important;
+}
+
+// Mobile View
+@media screen and (max-width: 568px) {
+  body {
+    position: relative;
+  }
+}

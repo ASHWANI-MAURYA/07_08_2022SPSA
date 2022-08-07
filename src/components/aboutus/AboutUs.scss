@@ -1,0 +1,483 @@
+.aboutus-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.aboutus-content-page {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 40px;
+}
+
+.visionpage-title {
+  text-transform: uppercase;
+  color: #0b38f2;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'DINNextBold';
+  margin-top: 40px;
+}
+
+.visionpage-our-vision-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.visionimage {
+  width: 50%;
+  position: relative;
+}
+
+.visionpage-our-vision-box {
+  background-color: #e3f3ff;
+  width: 60%;
+  padding: 50px 40px;
+  position: relative;
+  top: 50px;
+  right: -67px;
+}
+
+.vision-image-group {
+  width: 100%;
+}
+
+.vision-image-group-phone {
+  display: none;
+}
+
+.visionpage-our-vision-section {
+  margin: 40px 0;
+  padding: 0 85px 0 0;
+}
+
+.visionpage-our-mission-section {
+  padding: 0 85px 0 0;
+}
+
+.visionpage-summary {
+  font-size: 20px;
+  width: 95%;
+}
+
+.greenunderlinemobile {
+  display: none;
+}
+
+.chairperson-message-section {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.chairperson-message {
+  font-size: 16px;
+  padding-right: 20px;
+  text-align: justify;
+}
+.chairperson-image {
+  width: 300px;
+}
+.chairperson-image-section {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.board-of-management-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+}
+
+.board-members-tile {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.06);
+  border: 1px solid #ededeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.board-members-tile-image-section {
+  padding: 30px;
+  background: #f2f3f7;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board-members-tile-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 155px;
+}
+.board-members-tile-name-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  min-height: 6rem;
+}
+.board-members-tile-name-section-name {
+  color: #0b38f2;
+  text-transform: uppercase;
+}
+.board-members-tile-name-section-designation {
+  font-size: 14px;
+  padding: 0 12px;
+}
+.board-of-management-mom-section {
+  margin-top: 40px;
+}
+
+.about-university-section {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.about-university-timeline-left-side {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.about-university-timeline-right-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50%;
+}
+
+.about-university-beginning {
+  border: 1px solid #edebeb;
+  box-shadow: 0px 3px 6px rgb(0 0 0 / 6%);
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  float: left;
+  position: relative;
+  margin-top: 2rem;
+  margin-right: 18px;
+}
+.about-university-worldclassuniversity {
+  border: 1px solid #edebeb;
+  box-shadow: 0px 3px 6px rgb(0 0 0 / 6%);
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  float: left;
+  position: relative;
+  margin-top: 2rem;
+  margin-left: 18px;
+}
+
+.about-university-beginning.box-arrow-right::after {
+  content: ' ';
+  position: absolute;
+  right: -15px;
+  top: 15px;
+  border-top: 15px solid transparent;
+  border-right: none;
+  border-left: 15px solid #f7f7f7;
+  border-bottom: 15px solid transparent;
+}
+
+.about-university-worldclassuniversity.box-arrow-left::after {
+  content: ' ';
+  position: absolute;
+  left: -15px;
+  top: 15px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #f7f7f7;
+  border-left: none;
+  border-bottom: 15px solid transparent;
+}
+
+.about-university-box-title {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'DINNextBold';
+  margin-bottom: 20px;
+}
+
+.about-university-box-desc {
+  text-align: justify;
+}
+
+.about-university-timeline {
+  width: 4px;
+  margin-left: 36.5%;
+  height: 225%;
+  background-color: #018bf8;
+  position: absolute;
+  display: none;
+}
+.university-status-desc-section {
+  margin-top: 40px;
+}
+.university-status-image-section {
+  display: flex;
+  justify-content: center;
+}
+.university-status-buttons-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.university-status-ugc-recognition {
+  margin-left: 20px;
+}
+.university-status-image {
+  width: 100%;
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .container {
+    max-width: 1570px;
+    margin: 0 auto;
+  }
+  .visionpage-summary {
+    font-size: 28px;
+  }
+  .visionpage-title {
+    font-size: 60px;
+  }
+  .chairperson-message {
+    font-size: 30px;
+  }
+  .chairperson-image {
+    width: 411px;
+  }
+  .chairperson-image-section {
+    font-size: 30px;
+  }
+  .board-members-tile-name-section {
+    font-size: 28px;
+    min-height: 12rem;
+  }
+  .board-members-tile-name-section-designation {
+    font-size: 24px;
+  }
+  .board-members-tile-image {
+    width: 300px;
+  }
+  .board-of-management-section {
+    grid-gap: 40px;
+  }
+  .about-university-timeline {
+    width: 4px;
+    margin-left: 30.2%;
+    height: 342%;
+  }
+  .about-university-box-desc {
+    font-size: 28px;
+    text-align: justify;
+  }
+  .about-university-box-title {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 34px;
+  }
+  .university-status-desc-section {
+    margin-top: 40px;
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .container {
+    max-width: 1270px;
+    margin: 0 auto;
+  }
+}
+
+// Mini Laptop - 1024
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .visionpage-title {
+    text-transform: uppercase;
+    color: #0b38f2;
+    font-size: 38px;
+    font-weight: 700;
+    width: 100%;
+  }
+  .aboutus-content-page {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 40px;
+  }
+  .chairperson-message-section {
+    display: flex;
+    /* grid-template-columns: auto; */
+    flex-direction: column-reverse;
+  }
+}
+
+// Mobile View
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 1570px;
+    margin: 0 auto;
+  }
+  .aboutus-content-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 40px 20px;
+  }
+  .visionpage-title {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .visionpage-summary {
+    font-size: 14px;
+    width: 100%;
+  }
+  .visionpage-our-vision-section {
+    margin: 40px 0;
+    padding: 0;
+  }
+  .visionpage-our-mission-section {
+    margin: 40px 0;
+    padding: 0;
+  }
+  .vision-image-group {
+    display: none;
+  }
+  .vision-image-group-phone {
+    display: flex;
+    width: 100%;
+  }
+  .greenunderlinemobile {
+    width: 80px;
+    height: 6px;
+    margin-top: 15px;
+    display: flex;
+  }
+  .chairperson-message-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .chairperson-image {
+    width: 458px;
+  }
+  .chairperson-message {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .chairperson-image {
+    width: 300px;
+  }
+  .chairperson-image-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .board-of-management-section {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .board-of-management-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+  }
+
+  .board-members-tile {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.06);
+    border: 1px solid #ededeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .board-members-tile-image-section {
+    padding: 30px;
+    background: #f2f3f7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .board-members-tile-image {
+    width: 94px;
+    border-radius: 155px;
+  }
+  .board-members-tile-name-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    min-height: 9rem;
+  }
+  .board-members-tile-name-section-name {
+    color: #0b38f2;
+    text-transform: uppercase;
+  }
+  .board-members-tile-name-section-designation {
+    font-size: 14px;
+  }
+  .about-university-timeline-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-university-timeline-right-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-university-beginning {
+    margin-right: 0;
+  }
+  .about-university-worldclassuniversity {
+    margin-left: 0;
+  }
+  .about-university-timeline {
+    display: none;
+  }
+  .about-university-beginning.box-arrow-right::after {
+    display: none;
+  }
+
+  .about-university-worldclassuniversity.box-arrow-left::after {
+    display: none;
+  }
+  .university-status-buttons-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .university-status-singhania {
+    height: 70px !important;
+  }
+}

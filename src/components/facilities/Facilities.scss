@@ -1,0 +1,75 @@
+.library-facilities-section-image-right {
+  max-height: 280px;
+  position: relative;
+  margin-top: -80px;
+  margin-right: 20px;
+}
+.library-facilities-section-image-left {
+  max-height: 280px;
+  position: relative;
+  margin-top: -80px;
+  margin-left: 20px;
+}
+.library-facilities-section {
+  margin-top: 105px !important;
+}
+.campus-facilities-new-section {
+  margin-top: 105px !important;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 26px rgb(147 144 144 / 36%);
+}
+.residential-facilities-card-title {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'DINNextMedium';
+}
+.campus-facilities-new-card-title {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'DINNextMedium';
+}
+
+.residential-facilities-card {
+  margin: 30px 0;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ebe8e8;
+  box-shadow: 0px 3px 26px rgb(147 144 144 / 36%);
+}
+.campus-facilities-new-card {
+  margin: 30px 0;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ebe8e8;
+  box-shadow: 0px 3px 26px rgb(147 144 144 / 36%);
+  min-height: 35rem;
+}
+.campus-facilities-new-desc {
+  padding: 5px 20px 20px 20px;
+  text-align: justify;
+}
+
+// Mobile View
+@media only screen and (max-width: 576px) {
+  .img-slider-facilities {
+    margin-left: 250px !important;
+  }
+  .solar-power-systems-section {
+    flex-direction: column !important;
+  }
+  .campus-facilities-new-section {
+    margin-top: 105px !important;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+}

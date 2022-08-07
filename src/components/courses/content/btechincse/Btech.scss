@@ -1,0 +1,933 @@
+.B-tech-page {
+  display: flex;
+}
+
+.conatainer {
+  width: 90%;
+  margin: 0 7% 0 3%;
+}
+.objectives-section .container {
+  width: 90%;
+  margin: 0 7% 0 3%;
+}
+.objecive-sec .container,
+.cloud-tech-section .cloud-desc {
+  width: 90%;
+  margin: 0 7% 0 3%;
+}
+.eligibity-section .container {
+  width: 95%;
+  margin-left: auto;
+}
+.cloud-desc {
+  font-size: 22px;
+}
+.general {
+  text-align: left;
+}
+.objectives-section {
+  padding: 48px 0;
+  background-color: #f0f8f8;
+  width: 90%;
+  padding-left: 45px;
+}
+img.heading-light-green {
+  width: 40px;
+  height: 7px;
+  margin-bottom: 16px;
+}
+h5.heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: 'DINNextBold';
+}
+
+.general-section {
+  padding: 60px 0;
+}
+
+.objective-desc {
+  font-size: 22px;
+  padding-right: 46px;
+  width: 50%;
+}
+.artificial-desc {
+  font-size: 22px;
+  width: 90%;
+  margin: 0 7% 0 3%;
+}
+.lightgreen {
+  color: #04b9ac;
+}
+.navy-blue {
+  background-color: #0b1f84;
+}
+.paleyellow {
+  color: #fece42;
+}
+.lightpink {
+  color: #f05e88;
+}
+.skyblue {
+  color: #018bf8;
+}
+.palegreen {
+  color: #a7cc31;
+}
+.download-syllabus {
+  color: #0b38f2;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+.program-objective {
+  display: flex;
+  background: #fafbf6;
+  padding: 50px 0;
+  width: 90%;
+  float: right;
+  margin-bottom: 60px;
+}
+
+.program-left {
+  width: 50%;
+}
+.program-objectives-section {
+  height: 600px;
+}
+.program-right {
+  width: 50%;
+}
+p.program-desc {
+  font-size: 22px;
+}
+img.design-green {
+  width: 70px;
+  height: 6px;
+  margin-bottom: 18px;
+}
+.program-left img {
+  width: 100%;
+  position: relative;
+  top: -102px;
+  right: 92px;
+}
+.objective {
+  display: flex;
+}
+.artificial-title {
+  border-left: 24px solid;
+  border-top: 15px solid;
+  padding-top: 31px;
+  box-shadow: 0 0 black;
+  position: relative;
+  padding-left: 1.5%;
+}
+.cloud-program {
+  display: flex;
+  background: #f2f9fd;
+  margin: 72px 0;
+  padding: 60px 0;
+  width: 90%;
+  margin-left: 10%;
+}
+.eligibity-section {
+  color: #fff;
+}
+
+.eligibity {
+  padding: 60px 41px;
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+.eligibity ul {
+  padding-left: 18px;
+}
+
+h6.eligibility-title {
+  font-size: 24px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fece42;
+  font-family: 'DINNextBold';
+}
+
+.eligibity ul li {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.download-fee {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.internal-conatainer {
+  width: 90%;
+  margin: 0 7% 0 3%;
+}
+.expert-indivial img {
+  width: 180px !important;
+  height: 180px;
+}
+p.expert-name {
+  color: #273993;
+  font-size: 22px;
+  margin: 29px 0 0 0;
+}
+.expert-indivial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p.expert-dept {
+  margin: 0;
+  font-size: 21px;
+  color: gray;
+}
+.overview-desc {
+  font-size: 20px;
+}
+.syllabus {
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 19px 18px 0;
+  border-bottom: 2px solid #80808087;
+}
+.top-line {
+  border-top: 2px solid #80808087;
+}
+img.arti-img {
+  width: 50%;
+  position: relative;
+  left: 106px;
+}
+.heading.cloud-heading {
+  border-top: 14px solid;
+  color: #018bf8;
+  border-right: 20px solid;
+  padding-top: 18px;
+  padding-left: 3%;
+}
+.syllabus-section {
+  padding: 40px 0;
+}
+.icon-tab-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 14px;
+  font-family: 'DINNextBold';
+  color: #3b3a42 !important;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  margin-top: 30px;
+  z-index: 99;
+}
+.icon-tab {
+  cursor: pointer;
+  padding: 15px 0 15px;
+  border: none;
+}
+.icon-tab:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.icon-tab-active {
+  cursor: pointer;
+  border-bottom: 6px solid #0b38f2;
+  padding: 15px 0 15px;
+}
+.icon-tab-hyperlinks {
+  color: #3b3a42 !important;
+}
+.academic-fees-note {
+  font-size: 16px;
+  font-family: 'DINNextMedium';
+}
+.specialization-general-cse-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 120px;
+}
+.specialization-cloud-techology-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-top: 160px;
+}
+
+.specialization-general-cse {
+  width: 390px;
+  height: 324px;
+  z-index: 2;
+}
+.specialization-cloud-techology {
+  width: 390px;
+  height: 324px;
+  z-index: 2;
+  position: absolute;
+  right: 52px;
+}
+
+.specialization-general-cse-section-right {
+  margin: 60px 0 0 60px;
+  background-color: #f9faf4;
+  position: absolute;
+  width: 69.3%;
+  padding: 20px 40px 68px 365px;
+  border-radius: 8px;
+}
+.specialization-cloud-techology-left {
+  margin: 60px 0 0 0px;
+  background-color: #f0f8f8;
+  width: 90%;
+  padding: 20px 0 25px 42px;
+  border-radius: 8px;
+}
+.specialization-aiml-section-right {
+  margin: 60px 0 0 60px;
+  background-color: #eff7fd;
+  position: absolute;
+  width: 69.3%;
+  padding: 20px 40px 68px 365px;
+  border-radius: 8px;
+}
+.specialization-green-box {
+  height: 6px;
+  width: 40px;
+}
+
+.specialization-general-cse-section-title {
+  font-size: 28px;
+  font-family: 'DINNextBold';
+  letter-spacing: 1px;
+  color: #a7cc31;
+  margin-bottom: 20px;
+}
+.specialization-cloud-techology-section-title {
+  font-size: 28px;
+  font-family: 'DINNextBold';
+  letter-spacing: 1px;
+  color: #04b9ac;
+  margin-bottom: 20px;
+}
+.specialization-aiml-section-title {
+  font-size: 28px;
+  font-family: 'DINNextBold';
+  letter-spacing: 1px;
+  color: #018bf8;
+  margin-bottom: 20px;
+}
+.specialization-general-cse-section-desc {
+  font-size: 16px;
+}
+.specialization-cloud-technology-section-desc {
+  font-size: 16px;
+  width: 70%;
+  margin-bottom: 60px;
+}
+.read-more {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  color: #0b38f2;
+  font-family: 'DINNextBold';
+  display: flex;
+  align-items: baseline;
+  cursor: pointer;
+}
+
+.specialization-right-arrow {
+  margin-left: 10px;
+  width: 7px;
+  height: 11px;
+}
+
+.cloud-technology-read-more-section {
+  border-top: 1px solid #e0e0e0;
+  padding: 20px 0 0px;
+  margin: 20px 40px 0 0;
+}
+
+.cloud-technology-read-more-section-header {
+  font-size: 16px;
+  font-family: 'DINNextBold';
+  margin-bottom: 15px;
+}
+
+.cloud-technology-read-more-section-industry-partners-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 25px;
+}
+
+.cloud-technology-read-more-section-industry-partner {
+  display: flex;
+  flex-direction: column;
+}
+
+.cloud-technology-read-more-section-industry-partner-logo {
+  width: 132px;
+  margin-bottom: 30px;
+}
+
+.cloud-technology-read-more-section-industry-partner-summary {
+  margin: 25px 0;
+  height: 60px;
+}
+
+.cloud-technology-read-more-section-industry-partner ul li {
+  margin-bottom: 15px;
+}
+
+.specialization-whyspsu-heading {
+  font-size: 16px;
+  font-family: 'DINNextBold';
+  color: #018bf8;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.btech-testimonials-student-pic {
+  width: 75px !important;
+  height: 75px;
+}
+
+.general-section:last-child {
+  padding: 0;
+}
+
+.btech-faq {
+  margin-top: 25px;
+}
+
+.btech-faq-accordion {
+  color: #3b3a42;
+  background: none;
+  border-bottom: 1px solid #e0e0e0 !important;
+  cursor: pointer;
+  padding: 15px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-family: 'DINNext';
+  transition: 0.4s;
+}
+.btech-faq .active:after {
+  content: '\2212';
+}
+
+.btech-faq-accordion:after {
+  content: '\002B';
+  color: #0b38f2;
+  float: left;
+  margin-left: 5px;
+  margin-right: 20px;
+  font-size: 32px;
+  top: -13px;
+  position: relative;
+  margin-bottom: -24px;
+}
+.specialization {
+  margin-top: 40px;
+}
+h5#HODPROFILE {
+  margin-top: 40px;
+}
+
+.btech-faq .active,
+.btech-faq-accordion:hover {
+  color: #0b38f2;
+  font-size: 16px;
+  font-family: 'DINNextBold';
+}
+
+.btech-faq-panel {
+  padding: 0 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.btech-table {
+  overflow-x: hidden;
+}
+.program-objectives-section-bba {
+  margin-bottom: 40px;
+  background-color: #f9faf4;
+  position: relative;
+  width: 100%;
+  padding: 20px 40px 68px 20px;
+  border-radius: 8px;
+}
+.program-objectives-bba-top-companies-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 25px;
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .container {
+    max-width: 1570px;
+    margin: 0 auto;
+  }
+  .specialization-general-cse-section-right {
+    margin: 60px 0 0 60px;
+    background-color: #f9faf4;
+    position: absolute;
+    width: 69%;
+    padding: 20px 40px 110px 365px;
+  }
+  .specialization-aiml-section-right {
+    margin: 60px 0 0 60px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 69%;
+    padding: 20px 40px 110px 365px;
+  }
+  .specialization-cloud-techology {
+    width: 390px;
+    height: 324px;
+    z-index: 2;
+    position: absolute;
+    right: 122px;
+    top: 237rem !important;
+  }
+  .specialization-cloud-technology-section-desc {
+    font-size: 28px;
+    width: 70%;
+  }
+  .cloud-technology-read-more-section-industry-partner-logo {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  .cloud-technology-read-more-section-industry-partner-summary {
+    margin: 25px 0;
+    height: 128px;
+  }
+  .cloud-technology-read-more-section-header {
+    font-size: 28px;
+  }
+  .specialization-general-cse-section-desc {
+    font-size: 26px;
+  }
+  .specialization-general-cse-section-title {
+    font-size: 34px;
+  }
+  .specialization-cloud-techology-section-title {
+    font-size: 34px;
+  }
+  .cloud-technology-read-more-section ul li {
+    margin-left: -17px;
+  }
+  h5.heading {
+    font-size: 34px;
+  }
+  .syllabus {
+    font-size: 28px;
+  }
+  .syllabus img {
+    width: 40px;
+  }
+  .icon-tab {
+    font-size: 28px;
+  }
+  .eligibity {
+    font-size: 28px;
+  }
+  .general {
+    text-align: left;
+    font-size: 28px;
+  }
+  .academic-fees-note {
+    font-size: 28px;
+    font-family: 'DINNextMedium';
+  }
+  .specialization-aiml-section-title {
+    font-size: 34px;
+    font-family: 'DINNextBold';
+    letter-spacing: 1px;
+    color: #018bf8;
+    margin-bottom: 20px;
+  }
+  .specialization-whyspsu-heading {
+    font-size: 24px;
+  }
+  .specialization-general-cse-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 476px;
+  }
+  .eligibity.navy-blue.mtechinme ul li {
+    font-size: 28px;
+  }
+  .eligibity.navy-blue.mtechincse ul li {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+  .cloud-technology-read-more-section ul li {
+    margin-left: -17px;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .container {
+    max-width: 1270px;
+    margin: 0 auto;
+  }
+  .cloud-technology-read-more-section ul li {
+    margin-left: -17px;
+  }
+  .specialization-general-cse-section-right {
+    margin: 60px 0 0 60px;
+    background-color: #f9faf4;
+    position: absolute;
+    width: 68.5%;
+    padding: 20px 40px 88px 365px;
+  }
+  .specialization-aiml-section-right {
+    margin: 60px 0 0 60px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 68.5%;
+    padding: 20px 40px 88px 365px;
+  }
+  .specialization-cloud-techology-section-title {
+    font-size: 28px;
+    font-family: 'DINNextBold';
+    letter-spacing: 1px;
+    color: #04b9ac;
+    margin-bottom: 20px;
+    width: 64%;
+  }
+  .specialization-cloud-technology-section-desc {
+    width: 65%;
+  }
+}
+
+// Mini Laptop - 1024
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .specialization-general-cse-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 260px;
+  }
+  .specialization-general-cse {
+    width: 250px;
+    height: 209px;
+    z-index: 2;
+  }
+  .specialization-general-cse-section-right {
+    margin: 60px 0 0 60px;
+    background-color: #f9faf4;
+    position: absolute;
+    width: 54%;
+    padding: 20px 40px 20px 210px;
+  }
+  .specialization-aiml-section-right {
+    margin: 60px 0 0 60px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 54%;
+    padding: 20px 40px 20px 210px;
+  }
+  .icon-tab-bar {
+    font-size: 10px;
+  }
+  .table > tbody > tr > td,
+  .table > tbody > tr > th,
+  .table > tfoot > tr > td,
+  .table > tfoot > tr > th,
+  .table > thead > tr > td,
+  .table > thead > tr > th {
+    font-size: 10px !important;
+  }
+  .specialization-cloud-techology {
+    width: 250px;
+    height: 209px;
+  }
+  .specialization-cloud-techology-section {
+    margin-top: 290px;
+  }
+  .specialization-cloud-technology-section-desc {
+    font-size: 16px;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+  .specialization-cloud-techology-section-title {
+    font-size: 21px;
+    font-family: 'DINNextBold';
+    letter-spacing: 1px;
+    color: #04b9ac;
+    margin-bottom: 20px;
+    width: 64%;
+  }
+  .cloud-technology-read-more-section-industry-partner-summary {
+    margin: 25px 0;
+    height: 115px;
+  }
+  .btechwhyspsu {
+    margin-top: 60px;
+  }
+  .specialization-whyspsu-heading {
+    min-height: 50px;
+  }
+  .expert-indivial img {
+    width: 99px !important;
+    height: 99px;
+  }
+  p.expert-name {
+    color: #273993;
+    font-size: 18px;
+    margin: 29px 0 0 0;
+  }
+  p.expert-dept {
+    margin: 0;
+    font-size: 16px;
+    color: gray;
+  }
+  .expert-indivial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .btech-faq-accordion {
+    font-size: 14px;
+  }
+  .specialization-aiml-section-title {
+    font-size: 21px;
+    font-family: 'DINNextBold';
+    letter-spacing: 1px;
+    color: #018bf8;
+    margin-bottom: 20px;
+  }
+  .specialization-general-cse-section-title {
+    font-size: 21px;
+    font-family: 'DINNextBold';
+    letter-spacing: 1px;
+    color: #a7cc31;
+    margin-bottom: 20px;
+  }
+}
+
+// Mobile View
+@media screen and (max-width: 576px) {
+  .btech-faq-accordion {
+    font-family: 'DINNextMedium';
+  }
+  .btech-faq-accordion:after {
+    float: right;
+  }
+  .alumni-desc p {
+    z-index: 1;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 515px;
+  }
+  .student-name {
+    margin: 0px;
+    font-size: 16px;
+    color: #0b1f84;
+    font-family: 'DINNextMedium';
+  }
+  .btech-testimonials-student-pic {
+    width: 50px !important;
+    height: 50px;
+  }
+  .cloud-technology-read-more-section-industry-partners-section {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0 !important;
+  }
+  .icon-tab-bar {
+    display: none;
+  }
+  .specialization {
+    margin-top: 40px;
+  }
+  ol,
+  ul {
+    padding-left: 1rem;
+  }
+  .specialization-general-cse {
+    width: 226px;
+    height: 154px;
+    left: 0;
+    position: absolute;
+  }
+  .specialization-cloud-techology {
+    width: 226px;
+    height: 154px;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+  }
+  .specialization-general-cse-section-right {
+    margin: 60px 0 0 0px;
+    background-color: #f9faf4;
+    position: absolute;
+    width: 85%;
+    padding: 120px 40px 20px 31px;
+  }
+  .specialization-cloud-techology-section {
+    margin-top: 660px;
+  }
+  .specialization-cloud-techology-left {
+    padding: 130px 0 25px 20px;
+    width: 100%;
+  }
+  .specialization-cloud-technology-section-desc {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-right: 15px;
+  }
+  .cloud-technology-read-more-section {
+    padding: 20px 0;
+    margin: 0;
+  }
+  .cloud-technology-read-more-section-industry-partner-logo {
+    width: 200px;
+  }
+  .specialization-aiml-section-right {
+    margin: 60px 0 0 0px;
+    background-color: #eff7fd;
+    position: absolute;
+    width: 85%;
+    padding: 120px 40px 20px 31px;
+  }
+  .btechwhyspsu {
+    margin-top: 590px !important;
+    padding: 0 20px;
+  }
+  .specialization-whyspsu-desc {
+    margin-bottom: 20px;
+  }
+  .expert-faculty h5.heading {
+    text-align: center;
+    font-size: 20px;
+  }
+  .expert-indivial img {
+    width: 65px !important;
+    height: 65px;
+  }
+  .alumini-testimonial {
+    padding: 35px 10px;
+    min-height: 746px;
+    margin: 20px 5px;
+  }
+  p.expert-name {
+    color: #273993;
+    font-size: 14px;
+    margin: 29px 0 0 0;
+  }
+  p.expert-dept {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+  }
+  .alumni-detail {
+    display: flex;
+    width: 100%;
+  }
+  .btech-table {
+    overflow-x: scroll;
+  }
+
+  .btech-academic-fees {
+    padding: 0 20px;
+  }
+
+  .mtechincse {
+    margin-top: 490px;
+    margin-bottom: 0;
+  }
+  .mtechinme {
+    margin-top: 620px;
+    margin-bottom: 0;
+  }
+  .syllabus-section {
+    padding: 44px 0;
+  }
+  .syllabus {
+    font-size: 16px;
+    font-family: 'DINNextMedium';
+    text-transform: initial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 19px 18px 0;
+    border-bottom: none;
+  }
+  .top-line {
+    border-top: none;
+  }
+  h6.eligibility-title {
+    font-size: 18px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fece42;
+    font-family: 'DINNextBold';
+  }
+  .specialization-general-cse-section-title {
+    font-size: 20px;
+    font-family: 'DINNextBold';
+    letter-spacing: 1px;
+    color: #a7cc31;
+    margin-bottom: 20px;
+  }
+  .read-more {
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: #0b38f2;
+    font-family: 'DINNextBold';
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .general-section {
+    padding: 30px;
+  }
+  h5#FACULTYMEMBERS {
+    text-align: center;
+  }
+  .program-objectives-bba-top-companies-section {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 25px;
+  }
+}

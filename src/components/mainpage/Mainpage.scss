@@ -1,0 +1,2538 @@
+@import '../../variables';
+
+.pioneers-section {
+  background-color: #f4f6f7;
+  padding-top: 40px;
+}
+
+.pioneers-title {
+  color: #0b38f2;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'DINNextBold';
+}
+.pioneers-title::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.pioneers-description {
+  padding: 0 170px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.video-section {
+  margin-top: -50px;
+  margin-bottom: 80px;
+}
+
+h6.pioneer-title {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #0b38f2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'DINNextBold';
+}
+
+.darkblueline {
+  width: 40px;
+  height: 6px;
+  margin-bottom: 12px;
+}
+
+.find-degree span {
+  border-bottom: 1px solid #808080a1;
+}
+p.pioneer-desc {
+  font-size: 16px;
+}
+span.blue-arr {
+  font-size: 23px;
+}
+.find-program-section {
+  background: #f0fffe;
+  height: 612px;
+  margin-top: 250px;
+}
+
+.video-component {
+  height: 460px;
+  width: 800px;
+  position: relative;
+}
+
+.blue-box {
+  max-width: 435px;
+  display: flex;
+  align-items: flex-end;
+  border: 2px solid #0b38f2;
+  text-align: left;
+  border-radius: 17px;
+}
+
+.double-quotes {
+  height: 76px;
+  position: relative;
+  transform: translate3d(0%, 382%, 22px);
+  z-index: 2;
+}
+
+.blue-box-right {
+  align-self: center;
+}
+.image-box {
+  display: flex;
+}
+.image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-box-left {
+  height: auto;
+  background: #e3f3ff;
+  text-align: left;
+  padding: 65px;
+  position: relative;
+  top: 20px;
+}
+.pioneer-video {
+  display: flex;
+}
+.why-spsu-section {
+  background-image: url('../../images/why-spsu.png');
+  background-size: 100% 100%;
+}
+.flickity-button {
+  position: absolute;
+  background: #0b38f2 !important;
+  border: none;
+  color: white !important;
+}
+.why-spsu-title {
+  color: #fff;
+  font-size: 30px;
+}
+
+.why-spsu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.why-spsu-tiles {
+  display: flex;
+}
+
+.why-spsu-card {
+  background-color: #fff;
+  margin-right: 15px;
+  padding: 15px 15px 25px 15px;
+  text-align: left;
+}
+
+.why-spsu-card:last-child {
+  margin-right: 0px;
+}
+
+.why-spsu-card-title {
+  color: lightseagreen;
+  font-size: 22px;
+  width: 70%;
+  margin: 14px 0;
+  height: 88px;
+}
+
+.why-spsu-card-desc {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.campus-courses-section {
+  background-image: url('../../images/be-a-part-backgound.png');
+  background-size: 100% 100%;
+}
+.campus-courses {
+  display: flex;
+  color: #fff;
+}
+
+.campus-left h4 {
+  color: lightseagreen;
+  text-transform: uppercase;
+  font-size: 27px;
+  width: 60%;
+  text-align: left;
+}
+
+.campus-left p {
+  font-size: 22px;
+  width: 80%;
+}
+
+.campus-left {
+  width: 50%;
+  text-align: left;
+  padding-top: 35px;
+}
+
+.yellow-border {
+  border: 2px solid #fece42;
+  width: 100px;
+}
+
+.campus-right {
+  width: 50%;
+  text-align: left;
+  padding: 0 0 30px 80px;
+}
+
+h5.engineering-title {
+  font-size: 28px;
+  color: #fece42;
+}
+
+.campus-right tr td {
+  text-transform: uppercase;
+  padding-bottom: 0px !important;
+  font-size: 19px;
+  width: 48%;
+  display: flex;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.campus-right tr {
+  display: flex;
+  justify-content: space-between;
+}
+.left-aligned {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.right-aligned {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+span.course {
+  width: 73%;
+}
+
+img.right-arrow {
+  height: 24px;
+}
+
+.flickity-prev-next-button {
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 0% !important;
+  transform: translateY(-50%);
+}
+
+h5.management-title {
+  font-size: 25px;
+  color: rgb(62, 136, 62);
+}
+.news-updates-section {
+  background-color: #f4f6f7;
+  padding: 70px 0;
+}
+
+.news-articles {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+}
+
+.news-article {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 13px 26px 0;
+  box-shadow: 1px -1px 10px #00000033;
+  border-radius: 21px;
+}
+
+.news-article img {
+  width: 40%;
+}
+
+.news-updates h5 {
+  color: #0b38f2;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DINNextBold';
+}
+.news-updates h5::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+p.spsu-excels-title {
+  font-size: 18px;
+  width: 38%;
+  margin: 0 auto;
+  padding: 0px 0 20px;
+}
+
+.article-desc h6 {
+  font-size: 21px;
+  margin: 0;
+  padding-right: 11px;
+}
+span.blue-arr {
+  font-size: 23px;
+}
+
+.owl-nav {
+  display: none;
+}
+.article-desc {
+  text-align: left;
+  padding: 15px;
+  background: #ffffff;
+}
+.notification-toggle {
+  display: flex;
+  justify-content: flex-end;
+  height: 0px;
+}
+
+.notification-toggle img {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  top: -242px;
+  display: none;
+}
+.greaterthan {
+  width: 10px !important;
+  height: 14px;
+  margin-left: 12px;
+}
+p.time-passed {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+p.desc {
+  color: #3b3a42;
+  font-size: 16px;
+}
+
+a.readmore {
+  color: blue;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+button.blue-btn {
+  background: #0b38f2;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.alumini-testimonial {
+  padding: 35px 55px;
+  box-shadow: 0 3px 10px #00000033;
+  margin: 19px 0;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.home-page-alumini-testimonial {
+  padding: 35px 55px;
+  box-shadow: 0 3px 10px #00000033;
+  margin: 19px 0;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.admissions-page-alumini-testimonial {
+  padding: 35px 55px;
+  box-shadow: 0 3px 10px #00000033;
+  margin: 19px 0;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.alumni-desc {
+  display: flex;
+  padding: 35px 1px;
+}
+.home-page-alumni-desc {
+  display: flex;
+  padding: 35px 1px;
+  min-height: 24rem;
+}
+.admissions-page-alumni-desc {
+  display: flex;
+  padding: 35px 1px;
+  min-height: 24rem;
+}
+
+.alumni-desc img {
+  position: absolute;
+  opacity: 0.8;
+}
+.home-page-alumni-desc img {
+  position: absolute;
+  opacity: 0.8;
+}
+.admissions-page-alumni-desc img {
+  position: absolute;
+  opacity: 0.8;
+}
+
+.alumni-desc p {
+  z-index: 1;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.home-page-alumni-desc p {
+  z-index: 1;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.admissions-page-alumni-desc p {
+  z-index: 1;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.alumni-desc p::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.admissions-page-alumni-desc p::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.alumni-desc img {
+  z-index: 0;
+  transform: scale(0.9);
+  position: absolute;
+  height: 68px;
+  width: 58px !important;
+  left: 27px;
+  top: 57px;
+}
+.home-page-alumni-desc img {
+  z-index: 0;
+  transform: scale(0.9);
+  position: absolute;
+  height: 68px;
+  width: 58px !important;
+  left: 27px;
+  top: 57px;
+}
+.admissions-page-alumni-desc img {
+  z-index: 0;
+  transform: scale(0.9);
+  position: absolute;
+  height: 68px;
+  width: 58px !important;
+  left: 27px;
+  top: 57px;
+}
+.alumni-detail {
+  display: flex;
+  width: 68%;
+  //margin: 0 auto;
+}
+.home-page-alumni-detail {
+  display: flex;
+  width: 68%;
+  //margin: 0 auto;
+}
+.admissions-page-alumni-detail {
+  display: flex;
+  width: 68%;
+  //margin: 0 auto;
+}
+.student-name {
+  margin: 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #0b1f84;
+  font-family: 'DINNextMedium';
+}
+
+.personal-details {
+  text-align: left;
+  padding-left: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+p.degree {
+  font-size: 14px;
+}
+
+.testimonials-section .testimonials .alumni-detail img {
+  height: 70px;
+  width: 70px;
+}
+h5.testimonials-title {
+  font-size: 28px;
+  color: #0b38f2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'DINNextBold';
+}
+.testimonials-title::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+p.students-say {
+  font-size: 18px;
+}
+
+.testimonials {
+  padding-top: 55px;
+  position: relative;
+  top: -400px;
+}
+.admissions-testimonials-section {
+  background: #f2f6f6;
+  height: 400px;
+  margin-top: 400px;
+  margin-bottom: 40px;
+}
+.home-page-testimonials-section {
+  background: #f2f6f6;
+  height: 400px;
+  margin-top: 400px;
+  margin-bottom: 150px;
+}
+.admissions-page-testimonials-section {
+  background: #f2f6f6;
+  height: 400px;
+  margin-top: 400px;
+  margin-bottom: 150px;
+}
+.testimonials-section {
+  background: #f2f6f6;
+  height: 400px;
+  margin-top: 400px;
+  margin-bottom: 150px;
+}
+.placements-title {
+  margin: 40px 0 20px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.placements-title::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+.placements {
+  background: #f4f6f7;
+  padding: 60px 0;
+}
+
+.placement-stats-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 0px 0;
+}
+
+.placement-stats-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placement-stat-title {
+  font-size: 16px;
+  font-family: 'DINNextMedium';
+}
+
+.placement-stat-number {
+  font-size: 70px;
+  font-weight: 600;
+  font-family: 'DINNextBold';
+  line-height: 81px;
+}
+
+.placement-horizontal-line {
+  width: 60px;
+}
+
+.placement-lacs-per-year {
+  font-size: 14px;
+  font-weight: 100;
+  vertical-align: middle;
+  padding-bottom: 12px;
+  margin-top: -12px;
+}
+
+.blue-stat {
+  color: #0b38f2;
+}
+.yellow-stat {
+  color: #04b9ac;
+}
+.pink-stat {
+  color: #f05e88;
+}
+.light-blue-stat {
+  color: #018bf8;
+}
+
+.brand-items img {
+  width: 12% !important;
+  margin: 0px 30px;
+  padding: 20px;
+}
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 99px;
+}
+
+h5.recruiters-title {
+  color: #0b38f2;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'DINNextBold';
+}
+.recruiters-title::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+.recruiters-section {
+  padding: 60px 0;
+}
+.industry-brands {
+  display: flex;
+}
+
+.industry-brands img {
+  width: 20%;
+  margin: 1px;
+}
+.industry-collaboration-section {
+  padding: 0 0 30px 0;
+}
+
+h5.industry-title {
+  font-size: 28px;
+  margin: 70px 12px 12px;
+  color: #0b38f2;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DINNextBold';
+}
+.industry-title::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.find-program {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 250px;
+}
+
+.find-program-image {
+  width: 100%;
+  background-size: 100% 100%;
+  min-height: 797px;
+  background-repeat: no-repeat;
+  background-image: url('../../images/student-img.png');
+}
+
+.find-your-program {
+  background: $blue-dark-color;
+  padding: 54px 31px;
+  text-align: left;
+  width: 50%;
+  right: 123px;
+  position: relative;
+}
+.search-icon img {
+  right: 37px;
+  height: 30px;
+  position: relative;
+}
+h5.find-title {
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 4px;
+  margin: 6px 0;
+}
+
+h6.find-subtitle {
+  margin: 0;
+  font-size: 27px;
+  color: #04b9ac;
+}
+.search-icon {
+  margin-top: 28px;
+}
+p.find-desc {
+  font-size: 22px;
+  color: #fff;
+}
+
+h5.find-degree {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 0;
+}
+
+.searchbar input {
+  width: 100%;
+  height: 2.4em;
+  font-size: 1.2rem;
+  border-radius: 23px;
+  margin: 10px 0;
+  padding: 6px;
+}
+
+.searchbar {
+  display: flex;
+}
+
+.spsu-title-heading {
+  color: navy;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DINNextBold';
+  text-transform: uppercase;
+}
+.spsu-title-heading::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.spsu-udaipur {
+  padding: 60px 0;
+}
+
+p.spsu-subtitle {
+  font-size: 16px;
+  width: 65%;
+  margin: 13px auto 0;
+}
+.spsu-udaipur-lines {
+  width: 40px;
+  height: 6px;
+}
+.row-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.industry-placements {
+  background-image: url('../../images/industry-led.png');
+  background-size: 100% 100%;
+  width: 65%;
+  margin-right: 0px;
+  text-align: left;
+  padding: 35px;
+}
+
+.career-reality {
+  background-image: url('../../images/making-career.png');
+  background-size: 100% 100%;
+  width: 35%;
+  margin-right: 0px;
+  text-align: left;
+  padding: 35px;
+}
+
+h5.spsu-title {
+  margin: 7px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'DINNextBold';
+}
+
+p.spsu-desc {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+
+.row-second {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.placement-record {
+  background-image: url('../../images/best-palcement.png');
+  background-size: 100% 100%;
+  width: 35%;
+  margin-right: 0px;
+  text-align: left;
+  padding: 35px;
+}
+
+.scholarship {
+  background-image: url('../../images/attractice-scholarship.png');
+  background-size: 100% 100%;
+  margin-right: 0px;
+  text-align: left;
+  padding: 35px;
+
+  width: 65%;
+}
+.spsu-udaipur-section {
+  background: #f7f7f7;
+  margin-top: 15px;
+}
+.carousel {
+  background: #eee;
+}
+.over-the-years-image-div {
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-cell {
+  width: 50%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8c8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.flickity-cell .img-slider {
+  margin: 0px !important;
+  border: 0px solid #fff;
+  position: relative;
+  top: 100px;
+  opacity: 0.3;
+}
+.flickity-cell.is-selected img {
+  top: -30px;
+  opacity: 1;
+}
+.img-slider {
+  height: 550px;
+  width: inherit;
+}
+.campus-facilities {
+  // display: grid;
+  // grid-template-columns: auto auto;
+  margin: 0 58px;
+  padding-bottom: 60px;
+}
+
+.campus-facilities-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 26px;
+  font-family: 'DINNextBold';
+  color: #018bf8;
+}
+
+.facilities-logo {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.facilities {
+  border-right: 2px solid #e7e7e7;
+  border-bottom: 2px solid #e7e7e7;
+  padding: 40px 58px;
+  text-align: left;
+  width: 50%;
+}
+
+.facilities:first-child {
+  padding-right: 6.4rem;
+}
+
+.facilities:nth-child(2) {
+  border-right: none;
+}
+.facilities:nth-child(5) {
+  border-bottom: none;
+}
+.facilities:nth-child(4) {
+  border-right: none;
+}
+.facilities:nth-child(6) {
+  border: none;
+}
+
+.over-the-years-image {
+  width: 70%;
+  max-width: 116px;
+}
+
+.over-the-years-image-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+  margin-top: -32px;
+  animation: zoomout 0.5s ease;
+}
+
+.over-the-years-image-description-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 38%;
+  justify-content: center;
+}
+
+.over-the-years-image-description-section-header {
+  font-size: 16px;
+  font-family: 'DINNextBold';
+  text-align: left;
+}
+
+.over-the-years-image-description-section-desc {
+  font-size: 16px;
+  text-align: left;
+}
+
+.over-the-years-scrollable {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+  border-top: 1px solid #cecece;
+}
+
+.yearpointer {
+  height: 21px;
+  width: 9px;
+  position: relative;
+  top: -25px;
+  margin-bottom: -20px;
+}
+
+.over-the-years-year {
+  font-size: 28px;
+  font-family: 'DINNextBold';
+  color: #7f7f7f;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.over-the-years-year-active {
+  color: #0b38f2 !important;
+}
+
+.over-the-years-year:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.over-the-yearsjk-cement-logo {
+  width: 152px;
+  margin: 40px 0 60px;
+}
+
+.top-line-parent {
+  position: initial;
+  width: 112px;
+  height: 20px;
+  background: #0b1f84;
+}
+.top-line-spsu {
+  position: initial;
+  width: 112px;
+  height: 20px;
+  background: #04b9ac;
+}
+.serial-number {
+  font-size: 30px;
+  font-weight: 900;
+  width: auto;
+  display: inline;
+}
+
+h5.facilities-title {
+  font-size: 24px;
+  font-family: 'DINNextBold';
+  margin: 25px 0px 0px;
+  text-transform: uppercase;
+}
+
+p.facilities-desc {
+  font-size: 16px;
+  margin: 12px 0;
+}
+.lightgreen {
+  color: #04b9ac;
+}
+.lightpink {
+  color: #f05e88;
+}
+.skyblue {
+  color: #018bf8;
+}
+.palegreen {
+  color: #a7cc31;
+}
+.navy-light-blue {
+  color: #0b38f2;
+  font-size: 16px;
+  font-family: 'DINNextBold';
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 25px 0 0px;
+}
+.facilities:first-child .serial-number {
+  border-bottom: 5px solid #04b9ac;
+  width: 35px;
+}
+
+.facilities:nth-child(2) .serial-number {
+  border-bottom: 5px solid #f05e88;
+}
+
+.facilities:nth-child(3) .serial-number {
+  border-bottom: 5px solid #018bf8;
+}
+
+.facilities:nth-child(4) .serial-number {
+  border-bottom: 5px solid #a7cc31;
+}
+h5.campus-title {
+  font-size: 28px;
+  color: #0b38f2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'DINNextBold';
+}
+h5.campus-title::after {
+  content: '';
+  width: 75px;
+  height: 6px;
+  background-image: url('../../images/horizontal-line-light-green.png');
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.art-section {
+  width: 900px;
+  margin: -80px auto 0;
+  text-align: left;
+  padding: 0 0 64px 0;
+}
+
+h5.art-title {
+  margin: 20px 0;
+  font-size: 28px;
+  color: #0b38f2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: 'DINNextBold';
+}
+
+p.art-desc {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.blue-button {
+  background: #0b38f2;
+  min-width: 181px;
+  display: inline;
+  color: #fff;
+  padding: 14px 20px 9px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 32px;
+  margin: 31px 0;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-family: 'DINNextBold';
+  border: none;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: 2px solid #0b38f2;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 40px;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0b38f2;
+  width: 50%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #0b38f2;
+  color: #fff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #0b38f2;
+  color: #ffffff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 20px 40px;
+  border-top: none;
+  text-align: left;
+}
+
+.programs-image-slider-image-section {
+  background-image: url('../../images/spsu-programs.png');
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: left;
+  padding: 50px;
+  width: 45%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.seagreenunderline {
+  width: 80px;
+}
+
+.programs-image-slider-section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ebe8e8;
+  box-shadow: 0px 3px 6px rgba(147, 144, 144, 16%);
+  border-radius: 8px;
+}
+
+.programs-image-slider-image-section-title {
+  font-size: 42px;
+  font-weight: 900;
+  width: 98%;
+  font-family: 'DINNextBold';
+  letter-spacing: 1px;
+  line-height: 44px;
+}
+
+.programs-image-slider-image-section-sub-title {
+  width: 60%;
+  margin: 20px 0 80px 0;
+}
+
+.home-page-industry-collaboration-brand-item {
+  display: flex;
+  padding: 0 100px;
+  justify-content: center;
+}
+
+.home-page-industry-collaboration-grid-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 20px;
+  justify-content: space-between;
+}
+
+.home-page-industry-collaboration-grid-item {
+  width: 160px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-industry-collaboration-grid-item img {
+  width: 100%;
+  padding: 0 20px;
+  animation: zoomout 0.5s ease;
+}
+
+.download-brochure {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  font-weight: 700;
+  padding-top: 22px;
+}
+
+.spsu-programs-download-icon {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.programs-image-slider-slider-section {
+  width: 55%;
+  height: 100%;
+}
+
+.BrainhubCarousel {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end !important;
+  margin-left: -35px !important;
+}
+
+.BrainhubCarousel__arrows {
+  position: relative;
+  padding: 21px;
+  border: none;
+  overflow: hidden;
+  outline: 0;
+  font-size: 0;
+  line-height: 0;
+  background-color: #0b38f2 !important;
+  border: 2px solid #0b38f2 !important;
+}
+
+.BrainhubCarousel__arrows:hover {
+  position: relative;
+  padding: 21px;
+  border: none;
+  overflow: hidden;
+  outline: 0;
+  font-size: 0;
+  line-height: 0;
+  background-color: #0b38f2 !important;
+  border: 2px solid #0b38f2 !important;
+}
+
+.BrainhubCarousel__arrows:disabled {
+  background: none !important;
+  border: 2px solid #0b38f2;
+}
+
+.BrainhubCarousel__arrows:disabled span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-style: solid;
+  border-color: #0b38f2 !important;
+  border-width: 3px 3px 0 0;
+  padding: 5px;
+  transition: 0.3s;
+  font-size: 0;
+}
+
+.programs-carousel-list {
+  width: 90%;
+}
+
+.programs-carousel-list-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.programs-carousel-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.programs-carousel-list-item-subtitle {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.BrainhubCarousel__arrowLeft {
+  left: 84%;
+  position: relative;
+  cursor: pointer;
+}
+
+.programs-carousel-list-item:last-child {
+  padding-bottom: 40px !important;
+}
+
+.our-advisors-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.our-advisors-card-pic {
+  width: 130px;
+  height: 130px;
+  background-color: #b1b1b1;
+  border-radius: 80px;
+}
+
+.our-advisors-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #f2f0f0;
+  box-shadow: 0px 10px 14px rgba(147, 144, 144, 0.2);
+  padding: 20px;
+  width: 257px;
+  margin: 12px;
+}
+
+.our-advisors-card-name {
+  font-size: 16px;
+  font-family: 'DINNextBold';
+  color: #0b38f2;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.our-advisors-card-designation {
+  font-size: 14px;
+  color: #7f7f7f;
+  text-transform: uppercase;
+}
+
+.mobile {
+  display: none !important;
+  visibility: hidden !important;
+}
+.desktop {
+  visibility: visible !important;
+}
+
+.green-border {
+  width: 63px !important;
+  margin-bottom: 20px;
+}
+
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 50px !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-page-spsu-features-points {
+  text-align: left;
+  margin: 14px;
+  min-height: 580px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ebe8e8;
+  box-shadow: 0px 3px 26px rgba(147, 144, 144, 0.24);
+}
+
+.facilities-average-ctc {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+.facilities-lacs-per-annum {
+  font-size: 13px;
+  text-align: center;
+}
+
+.facilities-digit {
+  text-align: center;
+  font-size: 20px;
+}
+
+.facilities-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .programs-image-slider-section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ebe8e8;
+    box-shadow: 0px 3px 6pxrgba (147, 144, 144, 0.16);
+    border-radius: 8px;
+    min-height: 818px;
+  }
+  h6.pioneer-title {
+    font-size: 42px;
+  }
+  .over-the-years-image-description-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 38%;
+    justify-content: center;
+    align-items: center;
+  }
+  .programs-image-slider-image-section {
+    padding: 130px;
+  }
+  .programs-image-slider-image-section-sub-title {
+    width: 60%;
+    margin: 20px 0 320px 0;
+  }
+  .over-the-years-year {
+    font-size: 50px;
+  }
+  .over-the-years-image {
+    width: 100%;
+    max-width: 116px;
+  }
+  .over-the-years-image-description-section-header {
+    font-size: 21px;
+  }
+  .pioneers-title {
+    font-size: 63px;
+  }
+  .facilities-logo {
+    width: 80px;
+  }
+  p.facilities-desc {
+    font-size: 25px;
+    margin: 12px 0;
+  }
+  .pioneers-title::after {
+    content: '';
+    width: 200px;
+    height: 12px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  h5.industry-title {
+    font-size: 63px;
+  }
+  .industry-title::after {
+    content: '';
+    width: 200px;
+    height: 12px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .pioneers-description {
+    font-size: 33px;
+  }
+  .placements-subtitle {
+    font-size: 28px;
+  }
+  h5.recruiters-title {
+    font-size: 63px;
+  }
+  .recruiters-title::after {
+    content: '';
+    width: 200px;
+    height: 12px;
+  }
+  h5.campus-title {
+    font-size: 63px;
+  }
+  h5.campus-title::after {
+    content: '';
+    width: 200px;
+    height: 12px;
+  }
+  .news-updates h5 {
+    font-size: 63px;
+  }
+  .news-updates h5::after {
+    width: 200px;
+    height: 12px;
+  }
+  p.spsu-excels-title {
+    font-size: 28px;
+  }
+  h5.testimonials-title {
+    font-size: 63px;
+  }
+  .testimonials-title::after {
+    width: 200px;
+    height: 12px;
+  }
+  p.students-say {
+    font-size: 28px;
+  }
+  .campus-facilities-heading h5 {
+    font-size: 36px !important;
+  }
+  .campus-facilities-section {
+    padding-top: 40px;
+  }
+  .notification-toggle img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -317px;
+    right: 0px;
+  }
+
+  .home-page-alumni-desc p {
+    font-size: 24px;
+  }
+  p.pioneer-desc {
+    font-size: 24px;
+  }
+  .navy-light-blue {
+    font-size: 24px;
+  }
+  .placements {
+    background: #f4f6f7;
+    padding: 5px 0 60px;
+  }
+  .our-advisors-card-name {
+    font-size: 21px;
+  }
+  .our-advisors-card-designation {
+    font-size: 18px;
+  }
+  .our-advisors-section {
+    justify-content: space-evenly;
+  }
+  .alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 26rem;
+  }
+  .home-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 41rem;
+  }
+  .admissions-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 26rem;
+  }
+  .home-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 190px;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+  .campus-facilities-section {
+    padding-top: 40px;
+  }
+  .home-page-alumni-desc {
+    display: flex;
+    padding: 35px 1px;
+    min-height: 32rem;
+  }
+  .admissions-page-alumni-desc {
+    display: flex;
+    padding: 35px 1px;
+    min-height: 32rem;
+  }
+  .home-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 44.5rem;
+  }
+  .admissions-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 120px;
+  }
+  .home-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 190px;
+  }
+  .testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 190px;
+  }
+
+  .placements {
+    background: #f4f6f7;
+    padding: 5px 0 60px;
+  }
+  .alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 28rem;
+  }
+  .admissions-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 43rem;
+  }
+  .admissions-page-alumni-desc p::after {
+    visibility: hidden;
+  }
+  .facilities {
+    // width: 709px;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .campus-facilities-section {
+    padding-top: 40px;
+  }
+  .home-page-alumni-desc {
+    display: flex;
+    padding: 35px 1px;
+    min-height: 32rem;
+  }
+  .admissions-page-alumni-desc {
+    display: flex;
+    padding: 35px 1px;
+    min-height: 32rem;
+  }
+  .home-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 44.5rem;
+  }
+  .admissions-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 120px;
+  }
+  .home-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 190px;
+  }
+  .testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 190px;
+  }
+  .admissions-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 190px;
+  }
+
+  .placements {
+    background: #f4f6f7;
+    padding: 5px 0 60px;
+  }
+  .alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 28rem;
+  }
+  .admissions-page-alumni-desc p::after {
+    visibility: hidden;
+  }
+  .facilities {
+    // width: 662px;
+  }
+  .facilities-average-ctc {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    height: 50px;
+  }
+}
+
+// Mini Laptop - 1024
+// @media only screen and (min-width: 1000px) and (max-width: 1299px) {
+@media only screen and (min-width: 1000px) and (max-width: 1115px) {
+  .campus-facilities-section {
+    padding-top: 40px;
+  }
+  .why-spsu-card-title {
+    width: 90%;
+    height: 112px;
+  }
+  .news-article img {
+    width: 30%;
+  }
+  .alumini-testimonial {
+    padding: 25px;
+  }
+  .facilities {
+    padding: 40px 15px;
+    // width: 458px;
+  }
+  .facilities-average-ctc {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    height: 50px;
+  }
+  .facilities:first-child {
+    padding-right: 3.7rem;
+  }
+  .home-page-alumni-desc {
+    display: flex;
+    padding: 35px 1px;
+    min-height: 21rem;
+  }
+  .home-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 34rem;
+  }
+  .admissions-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 60rem;
+  }
+  .admissions-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 370px;
+  }
+  .home-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 40px;
+  }
+  .testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 430px;
+  }
+  .our-advisors-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .placements {
+    background: #f4f6f7;
+    padding: 5px 0 60px;
+  }
+  .news-articles {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 5px;
+  }
+  .home-page-alumni-desc p {
+    z-index: 1;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 37rem;
+  }
+  .admissions-page-alumni-desc p::after {
+    visibility: hidden;
+  }
+  .home-page-industry-collaboration-grid-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+  }
+  .home-page-industry-collaboration-grid-item {
+    width: 138px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.7);
+  }
+  .image-box {
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1116px) and (max-width: 1299px) {
+  .campus-facilities-section {
+    padding-top: 40px;
+  }
+  .why-spsu-card-title {
+    width: 90%;
+    height: 112px;
+  }
+  .news-article img {
+    width: 30%;
+  }
+  .alumini-testimonial {
+    padding: 25px;
+  }
+  .facilities {
+    padding: 40px 15px;
+    // width: 458px;
+  }
+  .facilities-average-ctc {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    height: 50px;
+  }
+  .facilities:first-child {
+    padding-right: 3.7rem;
+  }
+  .home-page-alumni-desc {
+    display: flex;
+    padding: 35px 1px;
+    min-height: 21rem;
+  }
+  .home-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 34rem;
+  }
+  .admissions-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 60rem;
+  }
+  .admissions-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 370px;
+  }
+  .home-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 40px;
+  }
+  .testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 430px;
+  }
+  .our-advisors-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .placements {
+    background: #f4f6f7;
+    padding: 5px 0 60px;
+  }
+  .news-articles {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 5px;
+  }
+  .home-page-alumni-desc p {
+    z-index: 1;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 37rem;
+  }
+  .admissions-page-alumni-desc p::after {
+    visibility: hidden;
+  }
+  .home-page-industry-collaboration-grid-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+  }
+  .home-page-industry-collaboration-grid-item {
+    width: 138px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.7);
+  }
+  .image-box {
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// Mobile View
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .campus-facilities {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .homepage-advertisement-section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 12px;
+    border-left: 4px solid #04b9ac;
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  .homepage-advertisement-message {
+    font-family: 'DINNextBold';
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .homepage-advertisement-apply-now {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'DINNextBold';
+    color: #0b38f2;
+  }
+
+  .greater-than {
+    width: 8px;
+    margin-left: 20px;
+  }
+
+  .mobile {
+    display: block !important;
+    visibility: visible !important;
+  }
+  .desktop {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .notification-toggle {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .campus-facilities-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    font-family: 'DINNextBold';
+    color: #018bf8;
+    text-align: center;
+  }
+  .facilities-logo {
+    width: 30px !important;
+    margin-bottom: 20px;
+  }
+  .campus-facilities-card {
+    min-height: 0 !important;
+    padding: 40px;
+  }
+  p.facilities-desc {
+    font-size: 16px;
+    margin: 12px 0;
+    text-align: center;
+  }
+  .pioneers-section {
+    background-color: #e3f3ff;
+    padding-top: 40px;
+    margin-top: 40px;
+  }
+  .pioneer-video {
+    display: flex;
+    flex-direction: column;
+  }
+  .blue-box-left {
+    height: auto;
+    background: none;
+    text-align: left;
+    padding: 0 20px 60px;
+    position: relative;
+    top: 20px;
+  }
+  p.pioneer-desc {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .over-the-years-scrollable {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    /* min-width: 1459px; */
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #cecece;
+    margin-top: 70px;
+    padding-left: 345px;
+  }
+  div#year1977 {
+    padding-left: 95px;
+  }
+  .over-the-years-image-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 170px;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .pioneers-description {
+    padding: 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .programs-image-slider-section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ebe8e8;
+    box-shadow: 0px 3px 6px #939090;
+    border-radius: 8px;
+  }
+  .programs-image-slider-image-section {
+    background-image: url('../../images/spsu-programs.png');
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  .programs-image-slider-slider-section {
+    width: 100%;
+    height: 100%;
+  }
+  .placement-stats-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px 0 0px 0;
+    grid-gap: 20px;
+  }
+  .placement-stat-title {
+    font-size: 12px;
+    font-family: 'DINNextMedium';
+    margin-bottom: -17px;
+  }
+  .home-page-alumni-desc img {
+    z-index: 0;
+    transform: scale(0.9);
+    position: absolute;
+    height: 68px;
+    width: 58px !important;
+    left: 46px;
+    top: 57px;
+  }
+  .placement-stat-number {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'DINNextBold';
+    height: 56px;
+  }
+  .our-advisors-section {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  .news-articles {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 5px;
+  }
+  .BrainhubCarousel__arrowLeft {
+    left: 40%;
+  }
+  .BrainhubCarousel__arrowRight {
+    left: -30%;
+  }
+  .programs-image-slider-image-section-title {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 26px;
+    width: 100%;
+    font-family: 'DINNextBold';
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .programs-image-slider-image-section-sub-title {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 12px;
+  }
+  .download-brochure {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: center;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  h5.industry-title {
+    font-size: 20px;
+    margin: 40px 12px 0px;
+    color: #0b38f2;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DINNextBold';
+  }
+  .pioneers-title {
+    color: #0b38f2;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'DINNextBold';
+  }
+  h5.recruiters-title {
+    color: #0b38f2;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'DINNextBold';
+  }
+  .art-section {
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 0 64px 0;
+    visibility: hidden;
+    display: none;
+  }
+  .our-advisors-card {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+  .our-advisor-section {
+    background: #f9f9fc;
+  }
+  p.time-passed {
+    margin: 14px 20px;
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+  }
+  p.desc {
+    color: #3b3a42;
+    font-size: 16px;
+    margin: 14px 20px;
+  }
+  a.readmore {
+    color: blue;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 14px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .testimonials-section .testimonials .alumni-detail img {
+    height: 70px;
+    width: 70px !important;
+  }
+
+  .over-the-years-image-description-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  .over-the-years-image-description-section-header {
+    font-size: 14px;
+    font-family: 'DINNextBold';
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .over-the-years-image-description-section-desc {
+    font-size: 14px;
+    text-align: center;
+  }
+  .over-the-years-image-div {
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .over-the-yearsjk-cement-logo {
+    width: 152px;
+    margin: 40px 0 20px;
+  }
+  .tab button {
+    width: 50%;
+  }
+  .tab button.active {
+    background-color: #0b38f2 !important;
+    color: #ffffff;
+  }
+  .spsu-programs-download-icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+  }
+  .flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    text-align: center;
+    display: none !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .brand-items img {
+    width: 25% !important;
+    margin: 20px 30px;
+    padding: 0px;
+  }
+  .placements {
+    background: #f4f6f7;
+    padding: 5px 0 20px;
+  }
+  .admissions-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 419px;
+  }
+  .home-page-testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 343px;
+  }
+  .testimonials-section {
+    background: #f2f6f6;
+    height: 400px;
+    margin-top: 400px;
+    margin-bottom: 188px;
+  }
+  .alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 19px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 60rem !important;
+  }
+  .home-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 54.5rem;
+  }
+  .admissions-page-alumini-testimonial {
+    padding: 35px 55px;
+    box-shadow: 0 3px 10px #00000033;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 51rem !important;
+  }
+  .img-slider {
+    height: auto !important;
+    width: 390px;
+    top: 73px;
+  }
+  .flickity-cell.is-selected img {
+    top: 0px;
+    opacity: 1;
+  }
+  .flickity-viewport {
+    overflow: hidden;
+    position: relative;
+    height: 465px !important;
+    touch-action: pan-y;
+  }
+
+  .campus-amenities-section {
+    margin-top: 60px;
+    height: 545px !important;
+  }
+  .admissions-page-alumni-desc p::after {
+    visibility: hidden !important;
+  }
+  .alumni-desc p::after {
+    visibility: hidden;
+  }
+  .admissions-page-alumni-desc {
+    display: flex;
+    padding: 35px 1px;
+    min-height: 41rem;
+  }
+  .home-page-alumni-desc {
+    display: flex;
+    padding: 35px 1px;
+    min-height: 39rem;
+  }
+  .home-page-alumni-desc p {
+    z-index: 1;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .admissions-page-alumni-desc p {
+    z-index: 1;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .brands-first {
+    margin-top: -33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .brands {
+    margin-top: 0;
+  }
+  .over-the-years-year {
+    font-size: 14px;
+    font-family: 'DINNextBold';
+    color: #7f7f7f;
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .over-the-years-scrollable {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    /* min-width: 1459px; */
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #cecece;
+    margin-top: 70px;
+    padding-left: 170px;
+  }
+  .home-page-industry-collaboration-brand-item {
+    padding: 0 20px;
+  }
+  .placement-lacs-per-year {
+    font-size: 12px;
+    font-weight: 100;
+    vertical-align: middle;
+    padding-bottom: 12px;
+    margin-top: 0px;
+  }
+  .alumni-desc img {
+    z-index: 0;
+    transform: scale(0.9);
+    position: absolute;
+    height: 68px;
+    width: 58px !important;
+    left: 5px;
+    top: 53px;
+  }
+  .home-page-spsu-features-points {
+    text-align: left;
+    margin: 14px;
+    min-height: 330px !important;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #ebe8e8;
+    box-shadow: 0px 3px 26px rgba(147, 144, 144, 0.24);
+  }
+  .home-page-industry-collaboration-grid-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+  }
+}

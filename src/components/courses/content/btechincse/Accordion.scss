@@ -1,0 +1,56 @@
+.custom-accordion-element {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2px 0;
+  font-family: 'DINNext';
+  align-items: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+.custom-accordion-icon-div {
+  width: 40px;
+  font-size: 30px;
+  color: blue;
+  cursor: pointer;
+}
+
+.custom-accordion-content-div {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.custom-accordion-element-panel {
+  max-height: 0;
+  display: none;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+
+// Mobile View
+@media screen and (max-width: 576px) {
+  .custom-accordion-content-div {
+    width: 316px;
+  }
+  .custom-accordion-icon-div {
+    width: 40px;
+    font-size: 30px;
+    color: blue;
+    cursor: pointer;
+    text-align: right;
+    margin-left: -30px;
+  }
+  .custom-accordion-element {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    font-family: 'DINNextMedium';
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+    background-color: #efefef;
+    margin: 10px 0;
+    justify-content: space-between;
+  }
+}

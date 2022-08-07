@@ -1,0 +1,80 @@
+.international-campus-card-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  margin-bottom: 40px;
+}
+
+.international-campus-card {
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ebe8e8;
+  box-shadow: 0px 3px 26px rgba(147, 144, 144, 0.24);
+}
+.international-facilities-section {
+  margin-top: 105px;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0px 3px 26px rgba(147, 144, 144, 0.24);
+  text-align: left;
+}
+.international-facilities-section:nth-child(2) {
+  background-color: #e3f3ff;
+}
+.international-facilities-section:nth-child(3) {
+  background-color: #eaf8f7;
+}
+.international-facilities-section:nth-child(4) {
+  background-color: #fceff3;
+}
+.international-facilities-section:nth-child(5) {
+  background-color: #fbfcef;
+}
+.international-facilities-section ul {
+  padding-left: 15px;
+}
+.international-facilities-section ul {
+  padding-left: 15px;
+}
+.international-campus-page-heading {
+  font-size: 28px;
+  color: #0b1f84;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'DINNextBold';
+  margin-top: 50px;
+}
+.international-campus-page-heading::after {
+  content: '';
+  width: 66px;
+  height: 8px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAAAGAQMAAAC1syEmAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFBLmsShRvNAAAAAxJREFUeJxjYKAUAAAAQgAB4IF6KAAAAABJRU5ErkJggg==);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+// Mobile View
+@media screen and (max-width: 576px) {
+  .international-campus-card-section {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    margin-bottom: 40px;
+  }
+  .international-facilities-section {
+    flex-direction: column-reverse;
+  }
+  .international-facilities-section:nth-child(3) {
+    flex-direction: column;
+  }
+  .international-facilities-section:nth-child(5) {
+    flex-direction: column;
+  }
+}

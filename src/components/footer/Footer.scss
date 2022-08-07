@@ -1,0 +1,308 @@
+.copyrightbar {
+  display: flex;
+  flex-direction: row; /* width: 100%; */
+}
+
+.copyrightbargrey {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.copyrightbargrey ul {
+  display: flex;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.copyrightbargrey ul li {
+  padding: 5px 15px;
+  font-size: 14px;
+  border-right: 1px solid #747474;
+}
+
+.greybarfooter {
+  background-color: #1e1e23;
+  color: #ffffff;
+}
+
+.contactuspane {
+  background-color: #0b1f84;
+  color: #fff;
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+}
+
+.contactus-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+
+.contactus-left-section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.spsufooterlogo {
+  // height: 73px;
+  width: 200px;
+}
+
+.contactus-social-media-logos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.social-media-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.contactus-right-section {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contactus-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contactus-right-section-boxes {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contactus-right-section-boxes-title {
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #04b9ac;
+  font-family: 'DINNextMedium';
+  text-transform: uppercase;
+}
+
+.contactus-right-section-boxes-item {
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+.contactus-address {
+  text-align: left;
+  font-size: 14px;
+  margin: 30px 0;
+  border-bottom: 1px solid #04b9ac;
+  padding-bottom: 15px;
+}
+
+.newsletterpane {
+  background-color: #e0e0e0;
+}
+
+.newsletterpane-container {
+  padding: 35px 0;
+}
+
+.newsletter-title {
+  color: #1e1e23;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.newsletter-inputbox {
+  height: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 50%;
+}
+
+.newsletter.contactus-right-section {
+  align-items: center !important;
+  display: flex !important;
+}
+
+.newsletter-left {
+  width: 50%;
+}
+
+.newsletter-right {
+  align-items: center;
+  width: 100%;
+}
+
+.subscribe {
+  height: fit-content;
+  padding: 12px 34px;
+  margin: 0;
+}
+
+.footer-links {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.chat-icon {
+  display: none;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  width: 90px;
+  cursor: pointer;
+}
+
+.chat-icon:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#copyrightmobile {
+  display: none;
+}
+
+.contactus-left-section-subclass {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2600px) {
+  .container {
+    max-width: 1570px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .container {
+    max-width: 1270px;
+    margin: 0 auto;
+  }
+}
+
+// Mini Laptop - 1024
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .logosection {
+    width: 20%;
+  }
+
+  .copyrightbargrey {
+    width: 90%;
+  }
+  span#copyright {
+    font-size: 12px;
+  }
+}
+
+// Mobile View
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .contactus-right-section {
+    display: none;
+  }
+  .contactus-left-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contactus-address {
+    text-align: right;
+    margin: 0;
+    border-bottom: none;
+    font-size: 10px;
+  }
+  .spsufooterlogo {
+    height: 31.98px;
+    width: 87.05px;
+  }
+  .copyrightbargrey ul {
+    display: none;
+  }
+  .copyrightbargrey {
+    display: flex;
+    width: 0;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .copyrightbar {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .enquire-now {
+    width: 50%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .logosection {
+    width: 100%;
+    justify-content: center;
+  }
+  #copyright {
+    display: none;
+  }
+  #copyrightmobile {
+    display: flex;
+    font-size: 10px;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+  }
+  .contactus-left-section-subclass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contactus-social-media-logos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content: flex-start;
+  }
+  .social-media-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+  }
+  .greybarfooter {
+    background-color: #04b9ac;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+  }
+  #__eechatIcon {
+    bottom: 60px !important;
+  }
+}
