@@ -61,10 +61,7 @@ const WhySpsu = (props) => {
               />
               <h6 className="title-head">State-of-the-art Infrastructure</h6>
               <p className="mtech-desc">
-                Access to fully computerized library, modern robotics and IoT
-                labs, modern mess, world class sports facilities, modern hostel
-                facilities and many more provisions to ensure wholesome campus
-                experience
+              Access to a fully computerized library, modern robotics, and IoT labs, modern mess, world-class sports facilities, modern hostel facilities, and many more provisions to ensure a wholesome campus experience.
               </p>
             </div>
             <div className="item why-spsu-points">
@@ -75,9 +72,7 @@ const WhySpsu = (props) => {
               />
               <h6 className="title-head">Learn From The Best</h6>
               <p className="mtech-desc">
-                The advantage of faculty members with extensive industrial and
-                academic experience, and with PhDs from top academic
-                institutions.
+              The benefit of having faculty members with PhDs from prestigious academic institutions and an extensive industrial and academic experience.
               </p>
             </div>
             <div className="item why-spsu-points">
@@ -88,9 +83,7 @@ const WhySpsu = (props) => {
               />
               <h6 className="title-head">Global Touch</h6>
               <p className="mtech-desc">
-                Collaborations with acclaimed international academic
-                institutions and leading names in the corporate sector to
-                accelerate innovative learning and build beneficial relations.
+              Collaborations with acclaimed international academic institutions and leading names in the corporate sector to accelerate innovative learning and build mutually beneficial relations.
               </p>
             </div>
             <div className="item why-spsu-points">

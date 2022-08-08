@@ -24,20 +24,10 @@ const EmbeddedSystems = () => {
           EMBEDDED SYSTEMS &amp; IOT
         </div>
         <div className="specialization-cloud-technology-section-desc">
-          Internet of Things (IoT) relates to physical and virtual objects that
-          have unique identities and are connected to the internet to facilitate
-          intelligent applications that make energy, logistics, industrial
-          control, retail, agriculture and many other domains “smarter”.
-          Internet of Things is a new revolution of the internet that rapidly
-          gathering momentum driven by the advancements in sensor networks,
-          mobile devices, wireless communications, networking and cloud
-          technologies. As per the experts, the number of Internet-connected
-          devices will exceed 50 billion by 2030. Specialization in Internet of
-          Things shall help students discover the supporting skills such as
-          embedded systems and wireless sensor networks. Top commercial
-          officialdoms have underway concentrating on the prospects thrown up by
-          Internet of Things like smart cities. Consequently, firms are in
-          search of experts who have sound knowledge of IoT.
+        Internet of Things is a new revolution of the internet that is rapidly gathering momentum driven by the advancements in sensor networks, mobile devices, wireless communications, networking and cloud technologies.
+        <br/>
+        <br/>
+        As per the experts, the number of Internet-connected devices will exceed 50 billion by 2030. Specialization in Internet of Things shall help students discover the supporting skills such as embedded systems and wireless sensor networks. Top commercial officialdoms are focusing on the prospects presented by Internet of Things like smart cities. Consequently, firms are in search of experts who have an in-depth knowledge of IoT
         </div>
        
         {readmoreState && (

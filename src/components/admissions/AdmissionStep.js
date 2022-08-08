@@ -29,7 +29,7 @@ const AdmissionStep = () => {
               <h6 className="sno">04</h6>
               <img alt="" src={bordergreen} className="bottom-border" />
               <p className="spsat-desc">
-              Pay fee
+              Application Fee Payment 
               </p>
             </div>
             <div className="spsat-card">

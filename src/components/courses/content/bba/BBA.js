@@ -58,7 +58,7 @@ const BBA = () => {
           },
           {
             ques: "What is the faculty profile of School of Management?",
-            ans: "The faculty members of School of Management are highly qualified and have wide experience. They have international exposure to contemporary management issues on teaching through case studies, group discussions etc. Almost all faculty members have been undergone academic exchange programme abroad that provides global exposure and multicultural experience, which enables them to teach and guide the students efficiently."
+            ans: "The faculty members of School of Management are highly qualified and have wide experience. They have international exposure to contemporary management issues on teaching through case studies, group discussions etc. Almost all faculty members have participated in the academic exchange programme abroad that provides global exposure and multicultural experience, which enables them to teach and guide the students efficiently."
           },
           {
             ques: "What specializations are offered to students?",

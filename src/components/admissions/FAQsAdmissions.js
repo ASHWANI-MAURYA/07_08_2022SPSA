@@ -19,7 +19,7 @@ const FAQsAdmissions = () => {
           },
           {
             ques: "What is SPSAT?",
-            ans: "Sir Padampat Singhania Admission Test (SPSAT) is the entrance examination for admission to various programmes offered by Sir Padampat Singhania University, Udaipur. Applicants are required to book their examination slots at www.spsu.ac.in. Applicants can take the online test only after submitting the application form and fulfilling the eligibility criteria. A confirmation mail will be sent to the email address after the applicant has booked his/her schedule. An applicant is allowed to take a second SPSAT if he/she is not satisfied with his/her performance in the first test. There is no negative marking. Please refer to the university website for details."
+            ans: "Sir Padampat Singhania Admission Test (SPSAT) is the entrance examination for admission to various programmes offered by Sir Padampat Singhania University, Udaipur. Applicants are required to book their examination slots at www.spsu.ac.in. Applicants can take the online test only after submitting the application form fulfilling the admission criteria and paying the application fee that is INR 1175. A confirmation mail will be sent to the email address after the applicant has booked his/her schedule. An applicant is allowed to take a second SPSAT if he/she is not satisfied with his/her performance in the first test. There is no negative marking. Please refer to the university website for details."
           },
           {
             ques: "What is the medium of instruction at SPSU?",
@@ -55,11 +55,11 @@ const FAQsAdmissions = () => {
           },
           {
             ques: "What are the placement records and the salaries offered to the students of SPSU?",
-            ans: "The university has an excellent placement record. On average, 90% of the eligible students have at least one job offer every year. Some of our recruiters are: IBM, TCS, Hewlett Packard, McKinsey, Syntell, JK Cements, Bollhoff, Mindtree, JK Technosoft, CMS, IndusInd Bank, Axis Bank, SpiceJet, JBM Group, ICICI Bank, Maintech Technologies, Indian Army, Indian Navy, Collabera, Mphasis, Aspiring Minds, Great Eastern Shipping and others. International Placements: Over Rs 21 Lakhs Domestic Placement: over Rs 11 lakhs (highest) Average Salary: over Rs 3 lakhs Lowest Salary: over Rs 1.75 lakhs"
+            ans: "The university has an excellent placement record. On an average, 90% of the eligible students have at least one job offer every year. Some of our recruiters are: IBM, TCS, Hewlett Packard, McKinsey, Syntell, JK Cements, Bollhoff, Mindtree, JK Technosoft, CMS, IndusInd Bank, Axis Bank, SpiceJet, JBM Group, ICICI Bank, Maintech Technologies, Indian Army, Indian Navy, Collabera, Mphasis, Aspiring Minds, Great Eastern Shipping and others. International Placements: Over Rs 21 Lakhs Domestic Placement: over Rs 11 lakhs (highest) Average Salary: over Rs 3 lakhs Lowest Salary: over Rs 1.75 lakhs"
           },
           {
             ques: "Does the university provide internships? What is the rate of students getting internships from universities? Name some partner companies?",
-            ans: "An internship is a part of the programme curriculum. SPSU offers 100% internships to all its students. Some of the companies are: Hindustan Zinc, J K Technosoft, HAL, ONGC, BHEL, L & T Construction, TCS, J K Cement, DMRC, HDFC Bank, Coca Cola, CPWD (NHAI), Tata Motors, Indian Railways, Grasim Industries, DRDO, Nuclear Power Corporation of India, BSNL, ISRO, Aditya Birla Cement, CPWD, Ashok Leyland, BARC, Indian Railways, Axis Bank, Lafarge Cement, Shree Cement, CEG Test House & Research Centre. Some students have been offered paid internships."
+            ans: "An internship is a part of the programme curriculum. SPSU offers 100% internships to all its students. Some of the companies are: Hindustan Zinc, J K Technosoft, HAL, ONGC, BHEL, L & T Construction, TCS, J K Cement, DMRC, HDFC Bank, Coca Cola, CPWD (NHAI), Tata Motors, Indian Railways, Grasim Industries, DRDO, Nuclear Power Corporation of India, BSNL, ISRO, Aditya Birla Cement, CPWD, Ashok Leyland, BARC, Indian Railways, Axis Bank, Lafarge Cement, Shree Cement, CEG Test House & Research Centre. Some students have been offered paid internships as well."
           },
           {
             ques: "Does the university provide scholarships?",

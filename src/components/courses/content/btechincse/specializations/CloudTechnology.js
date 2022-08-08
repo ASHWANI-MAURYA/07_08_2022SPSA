@@ -58,8 +58,7 @@ const CloudTechnology = () => {
                   solutions
                   </li>
                   <li>
-                    TCS iON will provide online certification courses, access to
-                    their platform
+                  TCS iON will provide online certification courses, along with an access to their platform
                   </li>
                   <li>
                     Online internship opportunities will also be provided to

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import greenunderlinemobile from "../../images/green-underline-mobile.png";
-import darpananand from "../../images/darpananand.jpeg";
+// import darpananand from "../../images/darpananand.jpeg";
 import presidentpic from "../../images/newpresident.jpg";
 import sanjaymishra from "../../images/SanjayMishra.jpeg";
 import "./Academics.css";
@@ -19,15 +19,6 @@ const OurFaculty = () => {
         facultydetails3: "Ph.D"
       },
       {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/prusty1.jpg",
-
-        facultyname: "Sadananda Prusty",
-        facultydetails1: "Dean",
-        facultydetails2: "School of Management",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Management"
-      },
-      {
         img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03551.png",
 
         facultyname: "Vinod Patidar",
@@ -35,6 +26,15 @@ const OurFaculty = () => {
         facultydetails2: "Physics",
         facultydetails3: "Ph.D",
         facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/prusty1.jpg",
+
+        facultyname: "Sadananda Prusty",
+        facultydetails1: "Dean",
+        facultydetails2: "School of Management",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Management"
       },
       {
         img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/arun.png",
@@ -53,19 +53,27 @@ const OurFaculty = () => {
         facultydetails4: "School of Engineering"
       },
       {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (15).png",
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/MONIKA-ANAND.jpg",
 
-        facultyname: "Shweta Lalwani",
-        facultydetails1: "HOD",
-        facultydetails2: "School Of Management",
+        facultyname: "Monika Anand",
+        facultydetails1: "Professor and HOD",
+        facultydetails2: "English",
         facultydetails3: "Ph.D",
-        facultydetails4: "School of Management"
+        facultydetails4: "School of Engineering"
       },
       {
-        img: darpananand,
-        facultyname: "Prof. (Dr.) Darpan Anand",
-        facultydetails1: "HOD",
-        facultydetails2: "Computer Science Engineering",
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/SHIBANI-BANERJEE.jpg",
+
+        facultyname: "Shibani Banerjee",
+        facultydetails1: "Professor",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (22).png",
+
+        facultyname: "Udayprakash Raghunath Singh",
+        facultydetails1: "Professor",
         facultydetails3: "Ph.D",
         facultydetails4: "School of Engineering"
       },
@@ -79,12 +87,54 @@ const OurFaculty = () => {
         facultydetails4: "School of Engineering"
       },
       {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/MONIKA-ANAND.jpg",
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (18).png",
 
-        facultyname: "Monika Anand",
-        facultydetails1: "Professor and HOD",
-        facultydetails2: "English",
+        facultyname: "Ashutosh Gupta",
+        facultydetails1: "Associate Professor",
         facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (23).png",
+
+        facultyname: "Om Prakash Suwalka",
+        facultydetails1: "Assistant Professor and Controller of Examination",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03450.png",
+
+        facultyname: "Himanshu Purohit",
+        facultydetails1: "Assistant Professor and Head of Corporate Interface",
+        facultydetails3: "M. Tech.",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (15).png",
+
+        facultyname: "Shweta Lalwani",
+        facultydetails1: "HOD",
+        facultydetails2: "School Of Management",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Management"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03513 .png",
+
+        facultyname: "Archana Gajbhiye",
+        facultydetails1: "Assistant Professor and HOD",
+        facultydetails2: "Biotechnology",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03508.png",
+
+        facultyname: "Yashoverdhan Vyas",
+        facultydetails1: " Assistant Professor and HOD",
+        facultydetails2: "Mathematics",
+        facultydetails3: " PhD",
         facultydetails4: "School of Engineering"
       },
       {
@@ -98,24 +148,6 @@ const OurFaculty = () => {
         facultydetails4: "School of Engineering"
       },
       {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03496.png",
-
-        facultyname: "Mukesh Kalla",
-        facultydetails1: "Assistant Professor and HOD",
-        facultydetails2: "Computer Science & Engineering",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03513 .png",
-
-        facultyname: "Archana Gajbhiye",
-        facultydetails1: "Assistant Professor and HOD",
-        facultydetails2: "Biotechnology",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Engineering"
-      },
-      {
         img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/F13.jfif",
 
         facultyname: "Avinash Ojha",
@@ -125,66 +157,17 @@ const OurFaculty = () => {
         facultydetails4: "School of Engineering"
       },
       {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03508.png",
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/deepak-pandey.jpg",
 
-        facultyname: "Yashoverdhan Vyas",
-        facultydetails1: " Assistant Professor and HOD",
-        facultydetails2: "Mathematics",
-        facultydetails3: " PhD",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (22).png",
-
-        facultyname: "Udayprakash Raghunath Singh",
-        facultydetails1: "Professor",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03450.png",
-
-        facultyname: "Himanshu Purohit",
-        facultydetails1: "Assistant Professor and Head of Corporate Interface",
+        facultyname: "Deepak Pandey",
+        facultydetails1: "Assistant Professor",
         facultydetails3: "M. Tech.",
         facultydetails4: "School of Engineering"
       },
       {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/SHIBANI-BANERJEE.jpg",
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (3).png",
 
-        facultyname: "Shibani Banerjee",
-        facultydetails1: "Professor",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (24).png",
-
-        facultyname: "Chandni Joshi",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (18).png",
-
-        facultyname: "Ashutosh Gupta",
-        facultydetails1: "Associate Professor",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/f20.jfif",
-
-        facultyname: "Amit Jain",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design.png",
-
-        facultyname: "Amrit Ghosh",
+        facultyname: "Devendra Singh Chouhan",
         facultydetails1: "Assistant Professor",
         facultydetails3: "Ph.D",
         facultydetails4: "School of Engineering"
@@ -198,33 +181,9 @@ const OurFaculty = () => {
         facultydetails4: "School of Engineering"
       },
       {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (8).png",
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design.png",
 
-        facultyname: "Poonam Saini",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "M. Phil.",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (5).png",
-
-        facultyname: "Harish Tiwari",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "M. Tech.",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/Kamal1.jpg",
-
-        facultyname: "Kamal Kant Hiran",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "PhD.",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (3).png",
-
-        facultyname: "Devendra Singh Chouhan",
+        facultyname: "Amrit Ghosh",
         facultydetails1: "Assistant Professor",
         facultydetails3: "Ph.D",
         facultydetails4: "School of Engineering"
@@ -238,11 +197,44 @@ const OurFaculty = () => {
         facultydetails4: "School of Management"
       },
       {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03519.png",
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (4).png",
 
-        facultyname: "Aman Jain",
+        facultyname: "Disha Mathur",
+        facultydetails1: "Assistant Professor",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Management"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (5).png",
+
+        facultyname: "Harish Tiwari",
         facultydetails1: "Assistant Professor",
         facultydetails3: "M. Tech.",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/f20.jfif",
+
+        facultyname: "Amit Jain",
+        facultydetails1: "Assistant Professor",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03496.png",
+
+        facultyname: "Mukesh Kalla",
+        facultydetails1: "Assistant Professor and HOD",
+        facultydetails2: "Computer Science & Engineering",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (19).png",
+
+        facultyname: "Prithvi Singh",
+        facultydetails1: "Assistant Professor",
+        facultydetails3: "Ph.D",
         facultydetails4: "School of Engineering"
       },
       {
@@ -254,11 +246,35 @@ const OurFaculty = () => {
         facultydetails4: "School of Engineering"
       },
       {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (24).png",
+
+        facultyname: "Chandni Joshi",
+        facultydetails1: "Assistant Professor",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/Kamal1.jpg",
+
+        facultyname: "Kamal Kant Hiran",
+        facultydetails1: "Assistant Professor",
+        facultydetails3: "PhD.",
+        facultydetails4: "School of Engineering"
+      },
+      {
         img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (21).png",
 
         facultyname: "Ritesh Tirole",
         facultydetails1: "Assistant Professor",
         facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/VSS03519.png",
+
+        facultyname: "Aman Jain",
+        facultydetails1: "Assistant Professor",
+        facultydetails3: "M. Tech.",
         facultydetails4: "School of Engineering"
       },
       {
@@ -270,65 +286,17 @@ const OurFaculty = () => {
         facultydetails4: "School of Management"
       },
       {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (23).png",
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/RAJEEV-KUMAR.jpg",
 
-        facultyname: "Om Prakash Suwalka",
-        facultydetails1: "Assistant Professor and Controller of Examination",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (4).png",
-
-        facultyname: "Disha Mathur",
+        facultyname: "Rajeev Kumar",
         facultydetails1: "Assistant Professor",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Management"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (19).png",
-
-        facultyname: "Prithvi Singh",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "Ph.D",
+        facultydetails3: "M. Tech.",
         facultydetails4: "School of Engineering"
       },
       {
         img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/lokesh-gupta.jpg",
 
         facultyname: "Lokesh Gupta",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "M. Tech.",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (20).png",
-
-        facultyname: "Vinay Chandrasekhar Mehta",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "M. Tech.",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (7).png",
-
-        facultyname: "Pankaj Mohan Rastogi",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "M. Tech.",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/deepak-pandey.jpg",
-
-        facultyname: "Deepak Pandey",
-        facultydetails1: "Assistant Professor",
-        facultydetails3: "M. Tech.",
-        facultydetails4: "School of Engineering"
-      },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/RAJEEV-KUMAR.jpg",
-
-        facultyname: "Rajeev Kumar",
         facultydetails1: "Assistant Professor",
         facultydetails3: "M. Tech.",
         facultydetails4: "School of Engineering"
@@ -341,6 +309,39 @@ const OurFaculty = () => {
         facultydetails3: "M. Tech.",
         facultydetails4: "School of Engineering"
       }
+      // ,{
+      //   img: darpananand,
+      //   facultyname: "Prof. (Dr.) Darpan Anand",
+      //   facultydetails1: "HOD",
+      //   facultydetails2: "Computer Science Engineering",
+      //   facultydetails3: "Ph.D",
+      //   facultydetails4: "School of Engineering"
+      // },
+      // {
+      //   img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (8).png",
+
+      //   facultyname: "Poonam Saini",
+      //   facultydetails1: "Assistant Professor",
+      //   facultydetails3: "M. Phil.",
+      //   facultydetails4: "School of Engineering"
+      // },
+      // {
+      //   img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (20).png",
+
+      //   facultyname: "Vinay Chandrasekhar Mehta",
+      //   facultydetails1: "Assistant Professor",
+      //   facultydetails3: "M. Tech.",
+      //   facultydetails4: "School of Engineering"
+      // },
+      // {
+      //   img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (7).png",
+
+      //   facultyname: "Pankaj Mohan Rastogi",
+      //   facultydetails1: "Assistant Professor",
+      //   facultydetails3: "M. Tech.",
+      //   facultydetails4: "School of Engineering"
+      // },
+      
     ]);
     setFacultiesNonTeaching([
       {
@@ -357,13 +358,13 @@ const OurFaculty = () => {
         facultydetails1: "Head Administration & Deputy Registrar",
         facultydetails3: "Post Graduation"
       },
-      {
-        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/hina-khan.jpg?var=1",
+      // {
+      //   img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/hina-khan.jpg?var=1",
 
-        facultyname: "Hina Khan",
-        facultydetails1: "Executive Communications",
-        facultydetails3: "Post Graduation"
-      },
+      //   facultyname: "Hina Khan",
+      //   facultydetails1: "Executive Communications",
+      //   facultydetails3: "Post Graduation"
+      // },
       {
         img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/pradyumna-kumar-panigrahi.jpg?var=1",
 

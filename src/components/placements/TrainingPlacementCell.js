@@ -77,8 +77,7 @@ const TrainingPlacementCell = () => {
               International Summer Industrial Training Programme
             </div>
             <div className="tnp-cell-card-desc">
-              The University has an MOU with Hitachi Rail Systems Ltd., Japan
-              for the Rail Transportation Engineering programme. Selected five
+            The University has an MoU with Hitachi Rail Systems Ltd., Japan for the Rail Transportation Engineering programme. Selected five
               students of Rail Transportation Engineering had undergone a paid
               industry internship programme for eight weeks at Hitachi Rail
               Systems Ltd., Japan last summer.
@@ -115,7 +114,7 @@ const TrainingPlacementCell = () => {
               Valeur HR - paid Industrial Internship Programme
             </div>
             <div className="tnp-cell-card-desc">
-            ValuerHR, in collaboration with SPSU, is providing the best talented students from the final and pre-final years to work on their live projects in HANA Cloud Platform, Artificial Intelligence, Internet of Things, and other Web Applications. These interns are paid a stipend during the training period, and the top performers are placed in their final year. Similarly, other companies of repute that have provided summer training &amp; internship to SPSU students are ISRO, BSNL, Siemens India, South Central Railway, Force Motors, Exide Life, Religare, JK Cements, HDFC, Apniclass, Saras, Maven Silicon, Secure meters, Pyrotech, Reliance Retail, Axis Bank, Wonder Cement, MineInfotech, MG Contractor, Ravi Infra, GR Infra, Genus, A One InfoTech, PhpPoets etc.
+            ValuerHR, in collaboration with SPSU, is providing the talented and outstanding students from the final and pre-final years to work on their live projects in HANA Cloud Platform, Artificial Intelligence, Internet of Things, and other Web Applications. These interns are paid a stipend during the training period, and the top performers are placed in their final year. Similarly, other companies of repute that have provided summer training & internship to SPSU students are ISRO, BSNL, Siemens India, South Central Railway, Force Motors, Exide Life, Religare, JK Cement HDFC, Apniclass, Saras, Maven Silicon, Secure meters, Pyrotech, Reliance Retail, Axis Bank, Wonder Cement, MineInfotech, MG Contractor, Ravi Infra, GR Infra, Genus, A One InfoTech, PhpPoets etc.
             </div>
           </div>
         </div>

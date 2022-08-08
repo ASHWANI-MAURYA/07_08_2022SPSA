@@ -78,7 +78,7 @@ const BTechInECE = () => {
             ans: "B. Tech. Electronics & Communication Engineer can opt for MS/MTech degree programmes in Communication, Networking, VLSI, Computer Science to name a few. He/She can opt for a MBA degree programme as well."
           },
           {
-            ques: "What is the expected remunerations for students after completing B. Tech. in ECE with specialization in IoT?",
+            ques: "What is the expected remuneration for students after completing B. Tech. in ECE with specialization in IoT?",
             ans: "B. Tech. (IoT) graduate may get Remuneration of Rs. 2.5 lacs to 8 lacs per annum."
           }
         ]}

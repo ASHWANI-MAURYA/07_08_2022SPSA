@@ -69,7 +69,7 @@ const AdvanceMiningTechnology = () => {
                 
                 <ul>
                   <li>
-                  SPSU engineering students will have opportunity to participate in a 9 weeks practical training session in GHH premises near Zawar Mine Complex 
+                  SPSU engineering students will have  an opportunity to participate in a 9 week practical training session in GHH premises near Zawar Mines Complex 
                   </li>
                   <li>
                   Students will learn to understand and analyze hydraulic and electric systems of heavy mobile machinery in order to optimize troubleshooting and fault finding

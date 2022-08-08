@@ -32,8 +32,7 @@ const ProgrammeObjectives = () => {
         management.
         <br />
         <br />
-        To demonstrate use of appropriate techniques &amp; problem solving
-        skills to effectively manage business challenges.
+        To demonstrate the use of appropriate techniques &amp; problem solving skills to effectively manage business challenges.
       </div>
       {readmoreState && (
         <div className="cloud-technology-read-more-section">
