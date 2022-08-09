@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import greenunderlinemobile from "../../images/green-underline-mobile.png";
-// import darpananand from "../../images/darpananand.jpeg";
+import darpananand from "../../images/darpananand.jpeg";
 import presidentpic from "../../images/newpresident.jpg";
 import sanjaymishra from "../../images/SanjayMishra.jpeg";
 import "./Academics.css";
@@ -308,15 +308,15 @@ const OurFaculty = () => {
         facultydetails1: "Assistant Professor",
         facultydetails3: "M. Tech.",
         facultydetails4: "School of Engineering"
-      }
-      // ,{
-      //   img: darpananand,
-      //   facultyname: "Prof. (Dr.) Darpan Anand",
-      //   facultydetails1: "HOD",
-      //   facultydetails2: "Computer Science Engineering",
-      //   facultydetails3: "Ph.D",
-      //   facultydetails4: "School of Engineering"
-      // },
+      },
+      {
+        img: darpananand,
+        facultyname: "Prof. (Dr.) Darpan Anand",
+        facultydetails1: "HOD",
+        facultydetails2: "Computer Science Engineering",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
       // {
       //   img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (8).png",
 
@@ -333,14 +333,14 @@ const OurFaculty = () => {
       //   facultydetails3: "M. Tech.",
       //   facultydetails4: "School of Engineering"
       // },
-      // {
-      //   img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (7).png",
+      {
+        img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (7).png",
 
-      //   facultyname: "Pankaj Mohan Rastogi",
-      //   facultydetails1: "Assistant Professor",
-      //   facultydetails3: "M. Tech.",
-      //   facultydetails4: "School of Engineering"
-      // },
+        facultyname: "Pankaj Mohan Rastogi",
+        facultydetails1: "Assistant Professor",
+        facultydetails3: "M. Tech.",
+        facultydetails4: "School of Engineering"
+      }
       
     ]);
     setFacultiesNonTeaching([

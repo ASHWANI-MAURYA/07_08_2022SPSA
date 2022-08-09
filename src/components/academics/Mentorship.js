@@ -15,7 +15,7 @@ const Mentorship = () => {
           <p>
             The Student Representative Cell was formed with a vision to provide
             a friendly and supportive environment to students.
-            <br />A core team of a few students with the support of 100 students has put their efforts in this direction.
+            <br />A Core team comprising of few students along with the support of 100 students have put in their best efforts in this direction to make mentorship an involving and dedicated programme. It aims at achieving the respective goals together.
           </p>
           <p>The cell undertakes the following activities:</p>
         </div>
