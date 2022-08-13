@@ -21,7 +21,7 @@ const SideNavigation = (props) => {
 
   return (
     <div className="side-navigation">
-      <div className="container navigation-list">
+      <div className="container navigation-list" style={{ width: "auto" }}>
         <div className="navigation-list-title">{props.title}</div>
         {props.listitems.map((obj, i) => {
           let navigationitemclass = "";
