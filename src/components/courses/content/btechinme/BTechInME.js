@@ -70,7 +70,7 @@ const BTechInME = () => {
           },
           {
             ques: "What options are open for higher studies for Mechanical Engineering?",
-            ans: "Mechanical engineer can pursue M.Tech/MS in different specializations like production, design and development, thermal, non-conventional energy, automobile, robotics and Mechatronics. He/She can also pursue an MBA degree programme."
+            ans: "He/She can also pursue  an MBA degree programme."
           }
         ]}
       />

@@ -13,7 +13,7 @@ const WhySPSU = () => {
               State-of-the-art Infrastructure
             </div>
             <div className="specialization-whyspsu-desc">
-            Access to a fully computerized library, modern robotics, and IoT labs, modern mess, world-class sports facilities, modern hostel facilities, and many more provisions to ensure a wholesome campus experience.
+            Access to a fully computerized library, modern robotics, IoT labs, modern mess, world-class sports facilities, modern hostel facilities, and many more provisions to ensure a wholesome campus experience.
             </div>
           </div>
           <div className="cloud-technology-read-more-section-industry-partner">
@@ -21,16 +21,13 @@ const WhySPSU = () => {
               Learn From The Best
             </div>
             <div className="specialization-whyspsu-desc">
-              The advantage of faculty members with extensive industrial and
-              academic experience, and with PhDs from top academic institutions.
+            The benefit of having faculty members with PhDs from prestigious academic institutions and an extensive industrial and academic experience.
             </div>
           </div>
           <div className="cloud-technology-read-more-section-industry-partner">
             <div className="specialization-whyspsu-heading">Global Touch</div>
             <div className="specialization-whyspsu-desc">
-              Collaborations with acclaimed international academic institutions
-              and leading names in the corporate sector to accelerate innovative
-              learning and build beneficial relations.
+            Collaborations with acclaimed international academic institutions and leading names in the corporate sector to accelerate innovative learning and build mutually beneficial relations.
             </div>
           </div>
           <div className="cloud-technology-read-more-section-industry-partner">
