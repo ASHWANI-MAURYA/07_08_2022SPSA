@@ -135,9 +135,9 @@ const Menubar = () => {
                       M. Tech
                     </NavDropdown.Item>
                     <NavDropdown.Item
-                      href="/CSE/PhD"
+                      href="/phD-in-computer-science-engineering"
                       onClick={() => {
-                        window.location = "/CSE/PhD";
+                        window.location = "/phD-in-computer-science-engineering";
                       }}
                     >
                       Ph.D

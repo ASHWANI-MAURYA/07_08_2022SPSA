@@ -75,12 +75,12 @@ const MobileNavBar = (props) => {
                             B.Tech
                           </div>
                         </a>
-                        <a href="mtech-in-computer-science-engineering">
+                        <a href="/mtech-in-computer-science-engineering">
                           <div className="accordion-button not-expandable">
                             M.Tech
                           </div>
                         </a>
-                        <a href="/CSE/PhD">
+                        <a href="/phD-in-computer-science-engineering">
                           <div className="accordion-button not-expandable">
                             Ph.D
                           </div>

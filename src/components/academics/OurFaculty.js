@@ -87,6 +87,14 @@ const OurFaculty = () => {
         facultydetails4: "School of Engineering"
       },
       {
+        img: darpananand,
+        facultyname: "Prof. (Dr.) Darpan Anand",
+        facultydetails1: "HOD",
+        facultydetails2: "Computer Science Engineering",
+        facultydetails3: "Ph.D",
+        facultydetails4: "School of Engineering"
+      },
+      {
         img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (18).png",
 
         facultyname: "Ashutosh Gupta",
@@ -309,14 +317,7 @@ const OurFaculty = () => {
         facultydetails3: "M. Tech.",
         facultydetails4: "School of Engineering"
       },
-      {
-        img: darpananand,
-        facultyname: "Prof. (Dr.) Darpan Anand",
-        facultydetails1: "HOD",
-        facultydetails2: "Computer Science Engineering",
-        facultydetails3: "Ph.D",
-        facultydetails4: "School of Engineering"
-      },
+     
       // {
       //   img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/faculty/Untitled design (8).png",
 
@@ -398,7 +399,7 @@ const OurFaculty = () => {
   return (
     <>
       <div className="visionpage-title">
-        Our Faculty
+        Our Faculty Members
         <img src={greenunderlinemobile} className="greenunderlinemobile" />
       </div>
 

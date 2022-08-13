@@ -19,7 +19,7 @@ const FAQsAdmissions = () => {
           },
           {
             ques: "What is SPSAT?",
-            ans: "Sir Padampat Singhania Admission Test (SPSAT) is the entrance examination for admission to various programmes offered by Sir Padampat Singhania University, Udaipur. Applicants are required to book their examination slots at www.spsu.ac.in. Applicants can take the online test only after submitting the application form fulfilling the admission criteria and paying the application fee that is INR 1175. A confirmation mail will be sent to the email address after the applicant has booked his/her schedule. An applicant is allowed to take a second SPSAT if he/she is not satisfied with his/her performance in the first test. There is no negative marking. Please refer to the university website for details."
+            ans: "Sir Padampat Singhania Admission Test (SPSAT) is the entrance examination for admission to various programmes offered by Sir Padampat Singhania University, Udaipur. Applicants are required to book their examination slots at www.spsu.ac.in. Applicants can take the online test only after submitting the application form, fulfilling the admission criteria and paying the application fee that is INR 1175."
           },
           {
             ques: "What is the medium of instruction at SPSU?",

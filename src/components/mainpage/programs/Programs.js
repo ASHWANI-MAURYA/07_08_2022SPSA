@@ -145,7 +145,7 @@ class Programs extends React.Component {
                             title: "Ph.D",
                             subtitles: [{
                               subtitle: "Computer Science and Engineering",
-                              href: "/CSE/PhD"
+                              href: "/phD-in-computer-science-engineering"
                             },
                             {
                               subtitle:

@@ -88,7 +88,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -106,7 +106,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -204,7 +204,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -222,7 +222,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -315,7 +315,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -333,7 +333,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -426,7 +426,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -444,7 +444,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -531,7 +531,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -549,7 +549,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -642,7 +642,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -660,7 +660,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -749,7 +749,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -767,7 +767,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -856,7 +856,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -874,7 +874,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -958,7 +958,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -976,7 +976,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1064,7 +1064,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1082,7 +1082,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1168,7 +1168,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1186,7 +1186,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1272,7 +1272,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1290,7 +1290,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1374,7 +1374,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1392,7 +1392,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1476,7 +1476,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1494,7 +1494,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1578,7 +1578,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -1596,7 +1596,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
