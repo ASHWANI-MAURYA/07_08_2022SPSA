@@ -21,11 +21,11 @@ const ContactUs = () => {
   };
   return (
     <div className="contactuspane">
-      <div className="form">
+      {/* <div className="form">
         <div>
           <div style= {{ marginTop: 10 }} className="npf_wgts" data-height="430px" data-w="a357c3a0cf88207b20e906c2e6a4db32"></div>
         </div>
-      </div>
+      </div> */}
       <div className="container">
         <div className="copyrightbar contactus-container">
           <div className="contactus-left-section">

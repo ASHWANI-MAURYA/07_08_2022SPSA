@@ -401,6 +401,13 @@ const MobileNavBar = (props) => {
                 </div>
               </a>
             </Accordion.Body>
+            {/* <Accordion.Body>
+              <a href="/news">
+                <div className="accordion-button not-expandable">
+                  News Visit
+                </div>
+              </a>
+            </Accordion.Body> */}
           </Accordion>
           {/* <a href="/InternationalAffairs">
             <div className="accordion-button not-expandable">

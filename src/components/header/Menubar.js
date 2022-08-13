@@ -416,6 +416,9 @@ const Menubar = () => {
             <NavDropdown title="NAAC" id="basic-nav-dropdown">
               <NavDropdown.Item href="/NAACVisit">NAAC Visit</NavDropdown.Item>
             </NavDropdown>
+            {/* <NavDropdown title="news" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/news">news Visit</NavDropdown.Item>
+            </NavDropdown> */}
             {/* <Nav.Link href="/InternationalAffairs">
               DIVISION OF INTERNATIONAL AFFAIRS
             </Nav.Link> */}

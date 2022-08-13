@@ -17,6 +17,10 @@ import Academics from "./components/academics/Academics";
 import Facilities from "./components/facilities/Facilities";
 import Research from "./components/research/Research";
 import NAACVisit from "./components/naacvisit/NAACVisit";
+import RainbowConsortiumMeeting from "./components/news/news";
+import Openmic from "./components/openmic/openmic";
+import MagazineElements from "./components/MagazineElements/MagazineElements";
+import CareerOpportunities from "./components/CareerOpportunities/CareerOpportunities";
 import InternationalAffairs from "./components/internationalaffairs/InternationalAffairs";
 import SHRC from "./components/others/SHRC";
 import IEEE from "./components/others/IEEE";
@@ -110,6 +114,10 @@ const App = () => {
           />
           <Route path="/Research/:researchtype" element={<Research />} exact />
           <Route path="/NAACVisit" element={<NAACVisit />} exact />
+          <Route path="/RainbowConsortiumMeeting" element={<RainbowConsortiumMeeting />} exact />
+          <Route path="/CareerOpportunities" element={<CareerOpportunities />} exact />
+          <Route path="/openmic" element={<Openmic />} exact />
+          <Route path="/MagazineElements" element={<MagazineElements />} exact />
           <Route
             path="/InternationalAffairs"
             element={<InternationalAffairs />}

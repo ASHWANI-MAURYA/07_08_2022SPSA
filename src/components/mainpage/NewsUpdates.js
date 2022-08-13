@@ -3,14 +3,14 @@ import greaterthan from "../../images/greater-than.png";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import newsupdates1 from "../../images/student-news.png";
-import newsupdates2 from "../../images/news-updates-2.png";
-import newsupdates3 from "../../images/news-updates-3.png";
-import newsupdates4 from "../../images/news-updates-4.png";
-import newsupdates1mobile from "../../images/news-updates-1-mobile.png";
-import newsupdates2mobile from "../../images/news-updates-2-mobile.png";
-import newsupdates3mobile from "../../images/news-updates-3-mobile.png";
-import newsupdates4mobile from "../../images/news-updates-4-mobile.png";
+import newsupdates1 from "../../images/news-updates-1.jpg";
+import newsupdates2 from "../../images/news-updates-2.jpg";
+import newsupdates3 from "../../images/news-updates-3.jpg";
+import newsupdates4 from "../../images/news-updates-4.jpg";
+// import newsupdates1mobile from "../../images/news-updates-1-mobile.png";
+// import newsupdates2mobile from "../../images/news-updates-2-mobile.png";
+// import newsupdates3mobile from "../../images/news-updates-3-mobile.png";
+// import newsupdates4mobile from "../../images/news-updates-4-mobile.jpg";
 
 const NewsUpdates = (props) => {
   return (
@@ -40,7 +40,7 @@ const NewsUpdates = (props) => {
                         <h6>{obj.title}</h6>
                         {/* <p className="time-passed">{obj.timeago}</p> */}
                         <p className="desc">{obj.desc}</p>
-                        <a href="/" className="readmore">
+                        <a href={obj.href} className="readmore">
                           READ MORE
                           <img src={greaterthan} className="greaterthan" />
                         </a>
@@ -85,13 +85,13 @@ const NewsUpdates = (props) => {
           >
             {props.spsuData.map((obj, i) => {
               if (i === 0) {
-                obj.img = newsupdates1mobile;
+                // obj.img = newsupdates1mobile;
               } else if (i === 1) {
-                obj.img = newsupdates2mobile;
+                // obj.img = newsupdates2mobile;
               } else if (i === 2) {
-                obj.img = newsupdates3mobile;
+                // obj.img = newsupdates3mobile;
               } else if (i === 3) {
-                obj.img = newsupdates4mobile;
+                // obj.img = newsupdates4mobile;
               }
               return (
                 <div key={i} className="item mtech-points">

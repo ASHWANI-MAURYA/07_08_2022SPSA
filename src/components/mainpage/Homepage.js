@@ -145,32 +145,32 @@ const Homepage = () => {
       <Placements />
       <Recruiters />
       {/* <OurAdvisors /> */}
-      <CampusAmenities />
+      <CampusAmenities /> 
       <NewsUpdates
         spsuData={[
           {
-            title: "Aakash Sinha’s Visit @ SPSU",
+            title: "RAINBOW Consortium Meeting on July 12-13, 2022 at SPSU",
             timeago: "2 DAYS AGO",
-            desc: "Leading Entrepreneur- CEO &Founder of Omnipresent Mr. Aakash Sinha’s visits Sir Padampat Singhania University, Udaipur on November 22, 2021",
-            href: "https://news.spsu.ac.in/news-of-aakash-sinhas-visit-at-spsu/"
+            desc: "The RAINBOW Consortium Meeting was held at Sir Padampat Singhania University, Udaipur on July 12-13, 2022. SPSU ERASMUS + European Union funded",
+            href: "RainbowConsortiumMeeting"
           },
           {
-            title: "NCC Enrollment Drive 2021-2022",
+            title: "Session on Career Opportunities in the Armed Forces held at SPSU on July 27, 2022",
             timeago: "A WEEK AGO",
-            desc: "SPSU is a partner to a European Union funded multilateral Project RAINBOW-Realizing Aspirations, Interests and Brilliance of Young Women. Renowned entrepre...",
-            href: "https://news.spsu.ac.in/ncc-enrollment-drive-2021-22/"
+            desc: "Colonel Sanjay Sinha, Head - Education Vertical, JK Cement Ltd delivered a session on ‘Career Opportunities in the Armed Forces’...",
+            href: "CareerOpportunities"
           },
           {
-            title: "NCC Day Camp 2021",
+            title: "Open Mic",
             timeago: "2 MONTHS AGO",
-            desc: "SPSU is a partner to a European Union funded multilateral Project RAINBOW-Realizing Aspirations, Interests and Brilliance of Young Women. Renowned entrepre...",
-            href: "https://news.spsu.ac.in/ncc-day-camp/"
+            desc: "An Open Mic event was conducted by the students of SPSU on July 15th, 2022. A lot of enthusiasm was showcased by them through playing the instruments...",
+            href: "OpenMic"
           },
           {
-            title: "75th Independence Day Celebration",
+            title: "University Magazine Elements 2022",
             timeago: "3 MONTHS AGO",
-            desc: "The 75th Independence Day was celebrated with great zeal and enthusiasm at Sir Padampat Singhania University, Udaipur. The Vice Chancellor of the Uni…",
-            href: "https://news.spsu.ac.in/spsu-applauds-indias-progress-on-its-75th-independence-day-celebration/"
+            desc: "We, at SPSU, provide transformative learning which helps students realize their potential, unfold their creative wings and make a meaningful difference in today’s world.…",
+            href: "MagazineElements"
           }
         ]}
       />
