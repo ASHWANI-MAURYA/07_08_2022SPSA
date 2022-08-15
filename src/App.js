@@ -32,13 +32,13 @@ import RTI from "./components/others/RTI";
 import TermsAndConditions from "./components/others/TermsAndConditions";
 import ExamResult from "./components/others/ExamResult";
 import Rainbow from "./components/others/Rainbow";
-
 const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
+          {/* <Route path="/rinku" element={<Homepage />} /> */}
           <Route
             path="/AboutUs/VisionAndMission"
             element={<VisionPage />}
@@ -137,6 +137,9 @@ const App = () => {
           />
           <Route path="/ExamResult" element={<ExamResult />} exact />
           <Route path="/Rainbow" element={<Rainbow />} exact />
+          <Route path="/about_university" element={<AboutUniversity />} exact />
+          <Route path="/about-university" element={<AboutUniversity />} exact />
+          <Route path="/AboutUs/AboutUniversity" element={<AboutUniversity />} exact />
         </Routes>
       </BrowserRouter>
     </div>
