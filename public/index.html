@@ -81,12 +81,41 @@
       cursor: pointer;
       opacity: 0.8;
       position: fixed;
-      bottom: 50%;
+      bottom: 55%;
       right: -70px;
       width: 180px;
       transform: rotate(-90deg);
+      z-index: 999999999;
     }
-
+    .open-call-button {
+      background-color: rgb(31, 36, 112);
+      color: white;
+      padding: 5px 5px 5px 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      opacity: 0.8;
+      position: fixed;
+      bottom: 30%;
+      right: -30px;
+      width: 100px;
+      transform: rotate(-90deg);
+      z-index: 999999999;
+    }
+    .whatsapp {
+      cursor: pointer;
+      position: fixed;
+      z-index: 99999999;
+      bottom: 14%;
+      right: 25px;
+      padding: 5px 5px 5px 5px;
+    }
+    .phone:hover {
+      width: 60px;
+    }
+    .whatsapp:hover {
+      width: 50px;
+    }
     /* The popup form - hidden by default */
     .form-popup {
       display: none;
@@ -95,9 +124,15 @@
       right: 0px;
       border: 3px solid #807e7e;
       border-radius: 5px;
-      z-index: 9999999;
+      z-index: 999999999;
       padding: 50px 0;
       background-color: white;
+    }
+    .light:hover{
+      color: #ffffff;
+    }
+    .light{
+      color: #ffffff;
     }
 
     /* Add styles to the form container */
@@ -118,7 +153,6 @@
       margin-top: 10px;
       opacity: 0.8;
     }
-
     /* Add a red background color to the cancel button */
     .form-container .cancel {
       background-color: rgb(203, 79, 79);
@@ -128,6 +162,9 @@
     /* Add some hover effects to buttons */
     .form-container .btn:hover,
     .open-button:hover {
+      opacity: 1;
+    }
+    .open-call-button:hover {
       opacity: 1;
     }
   </style>
@@ -141,7 +178,6 @@
 
 
   <div class="npf_chatbots" data-w="0d26df3f104f4d008c83cb5c85f8f6a4" style="display: none"></div>
-
   <div class="center">
     <div>
       <button class="open-button" onclick="openForm()">Admission Enquiry</button>
@@ -153,6 +189,10 @@
       </form>
     </div>
   </div>
+  <div class="center">
+      <a class="whatsapp" href="https://api.whatsapp.com/send?phone=919509627697&text=I+would+like+to+know+more+&utm_source=website&utm_medium=whatsapp"><div style="width:20px;"><img src="https://img.icons8.com/3d-fluency/50/000000/3d-fluency-whatsapp-logo.png"/></div></a>
+  </div>
+    <button class="open-call-button"><a href="tel:18005478500" class="light">Call now</a></button>
   <script type="text/javascript">
     var s = document.createElement('script');
     s.type = 'text/javascript';

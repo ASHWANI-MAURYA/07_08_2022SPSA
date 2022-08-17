@@ -163,9 +163,9 @@ const Menubar = () => {
                       M. Tech
                     </NavDropdown.Item>
                     <NavDropdown.Item
-                      href="/ECE/PhD"
+                      href="/phD-in-electronics-and-communication-engineering"
                       onClick={() => {
-                        window.location = "/ECE/PhD";
+                        window.location = "/phD-in-electronics-and-communication-engineering";
                       }}
                     >
                       Ph.D
@@ -189,9 +189,9 @@ const Menubar = () => {
                       M. Tech
                     </NavDropdown.Item>
                     <NavDropdown.Item
-                      href="/ME/PhD"
+                      href="/phD-in-mechanical-engineering"
                       onClick={() => {
-                        window.location = "/ME/PhD";
+                        window.location = "/phD-in-mechanical-engineering";
                       }}
                     >
                       Ph.D
@@ -215,9 +215,9 @@ const Menubar = () => {
                       M. Tech
                     </NavDropdown.Item>
                     <NavDropdown.Item
-                      href="/Mining/PhD"
+                      href="/phD-in-mining-engineering"
                       onClick={() => {
-                        window.location = "/Mining/PhD";
+                        window.location = "/phD-in-mining-engineering";
                       }}
                     >
                       Ph.D

@@ -57,7 +57,7 @@ const BoardOfManagement = () => {
       {
         img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/board-of-member/sanjaysinha.jpg",
         membername: "Mr. Sanjay Sinha",
-        memberdesignation: "Campus Director, SPSU"
+        memberdesignation: "Head of Education, JK Cement"
       },
       {
         img: "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/board-of-member/dummy.jpg",

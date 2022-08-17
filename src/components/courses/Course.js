@@ -53,453 +53,22 @@ const Course = (props) => {
     const currentBranch = urlParts[urlParts.length - 2];
     const currentGraduation = urlParts[urlParts.length - 1];
 
-    if (currentBranch === "CSE" && currentGraduation === "BTech") {
-      setBranch("COMPUTER SCIENCE ENGINEERING");
-      setBannerImage(btechcsebanner);
-      setPageContentTitle("B. Tech in Computer Science Engineering (CSE)");
-      setBreadcrumbSubText("B. Tech in Computer Science Engineering");
-      setCourseDuration("4 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("B. TECH");
-      setContentComponent(
-        <>
-          <BTechInCSE />
-        </>
-      );
-      setBrochureState(true);
-      setSidenavactiveitem(1);
-      setSidenavactivesubitem(1);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/CSE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/CSE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/CSE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ECE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ECE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ECE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ME/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ME/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/Mining/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/Mining/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    }
-    if (currentBranch === "ECE" && currentGraduation === "BTech") {
-      setBranch("ELECTRONICS AND COMMUNICATION ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/B-Tech-in-Electronics-_-Communication-Engineering.jpg"
-      );
-      setPageContentTitle(
-        "B. Tech in Electronics and Communication Engineering (ECE)"
-      );
-      setBreadcrumbSubText(
-        "B. Tech in Electronics and Communication Engineering"
-      );
-      setCourseDuration("4 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("B. TECH");
-      setContentComponent(
-        <>
-          <BTechInECE />
-        </>
-      );
-      setBrochureState(true);
-      setSidenavactiveitem(2);
-      setSidenavactivesubitem(1);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/CSE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/CSE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/CSE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ECE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ECE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ECE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ME/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ME/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/Mining/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/Mining/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (currentBranch === "ME" && currentGraduation === "BTech") {
-      setBranch("MECHANICAL ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/B-Tech-in-Mechanical-Engineering.jpg"
-      );
-      setPageContentTitle("B. Tech in Mechanical Engineering");
-      setBreadcrumbSubText("B. Tech in Mechanical Engineering");
-      setCourseDuration("4 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("B. TECH");
-      setContentComponent(
-        <>
-          <BTechInME />
-        </>
-      );
-      setBrochureState(true);
-      setSidenavactiveitem(3);
-      setSidenavactivesubitem(1);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/CSE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/CSE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/CSE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ECE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ECE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ECE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ME/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ME/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/Mining/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/Mining/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (currentBranch === "Mining" && currentGraduation === "BTech") {
-      setBranch("MINING ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/btmining.png"
-      );
-      setPageContentTitle("B. Tech in Mining Engineering");
-      setBreadcrumbSubText("B. Tech in Mining Engineering");
-      setCourseDuration("4 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("B. TECH");
-      setContentComponent(
-        <>
-          <BTechInMining />
-        </>
-      );
-      setBrochureState(true);
-      setSidenavactiveitem(4);
-      setSidenavactivesubitem(1);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/CSE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/CSE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/CSE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ECE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ECE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ECE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ME/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ME/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/Mining/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/Mining/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (currentBranch === "CSE" && currentGraduation === "MTech") {
+    if (currentBranch === "" && currentGraduation === "phD-in-computer-science-engineering") {
       setBranch("COMPUTER SCIENCE ENGINEERING");
       setBannerImage(mtechcsebanner);
-      setPageContentTitle("M. Tech in Computer Science Engineering (CSE)");
-      setBreadcrumbSubText("M. Tech in Computer Science Engineering");
-      setCourseDuration("2 Years");
+      setPageContentTitle("PhD in Computer Science Engineering (CSE)");
+      setBreadcrumbSubText("PhD in Computer Science Engineering");
+      setCourseDuration("3-5 Years");
       setCourseType("Residential (Optional)");
-      setGraduation("M. TECH");
-      setContentComponent(<MTechInCSE />);
+      setGraduation("Ph.D");
+      setContentComponent(
+        <>
+          <PhDInCSE />
+        </>
+      );
       setBrochureState(false);
       setSidenavactiveitem(1);
-      setSidenavactivesubitem(2);
+      setSidenavactivesubitem(3);
       setSchoolType("Engineering");
       setSideNavList([
         {
@@ -508,15 +77,15 @@ const Course = (props) => {
           subitems: [
             {
               title: "B. Tech",
-              href: "/CSE/BTech"
+              href: "/btech-in-computer-science-engineering"
             },
             {
               title: "M. Tech",
-              href: "/CSE/MTech"
+              href: "/mtech-in-computer-science-engineering"
             },
             {
               title: "Ph.D",
-              href: "/CSE/PhD"
+              href: "/phD-in-computer-science-engineering"
             }
           ]
         },
@@ -526,15 +95,15 @@ const Course = (props) => {
           subitems: [
             {
               title: "B. Tech",
-              href: "/ECE/BTech"
+              href: "/btech-in-electronics-communications-engineering"
             },
             {
               title: "M. Tech",
-              href: "/ECE/MTech"
+              href: "/mtech-in-electronics-communication-engineering"
             },
             {
               title: "Ph.D",
-              href: "/ECE/PhD"
+              href: "/phD-in-electronics-and-communication-engineering"
             }
           ]
         },
@@ -544,15 +113,15 @@ const Course = (props) => {
           subitems: [
             {
               title: "B. Tech",
-              href: "/ME/BTech"
+              href: "/btech-in-mechanical-engineering"
             },
             {
               title: "M. Tech",
-              href: "/ME/MTech"
+              href: "/mtech-in-mechanical-engineering"
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -562,331 +131,15 @@ const Course = (props) => {
           subitems: [
             {
               title: "B. Tech",
-              href: "/Mining/BTech"
+              href: "/btech-in-mining-engineering"
             },
             {
               title: "M. Tech",
-              href: "/Mining/MTech"
+              href: "/mtech-degree-in-mining-engineering"
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (currentBranch === "ECE" && currentGraduation === "MTech") {
-      setBranch("ELECTRONICS AND COMMUNICATION ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/B-Tech-in-Electronics-_-Communication-Engineering.jpg"
-      );
-      setPageContentTitle(
-        "M. Tech in Electronics and Communication Engineering (ECE)"
-      );
-      setBreadcrumbSubText(
-        "M. Tech in Electronics and Communication Engineering"
-      );
-      setCourseDuration("2 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("M. TECH");
-      setContentComponent(<MTechInECE />);
-      setBrochureState(false);
-      setSidenavactiveitem(3);
-      setSidenavactivesubitem(2);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/CSE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/CSE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/CSE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ECE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ECE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ECE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ME/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ME/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/Mining/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/Mining/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (currentBranch === "ME" && currentGraduation === "MTech") {
-      setBranch("MECHANICAL ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/M-Tech-in-Mechanical-Engineering.jpg"
-      );
-      setPageContentTitle("M. Tech in Mechanical Engineering");
-      setBreadcrumbSubText("M. Tech in Mechanical Engineering");
-      setCourseDuration("2 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("M. TECH");
-      setContentComponent(<MTechInME />);
-      setBrochureState(false);
-      setSidenavactiveitem(3);
-      setSidenavactivesubitem(2);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/CSE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/CSE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/CSE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ECE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ECE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ECE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ME/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ME/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/Mining/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/Mining/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (currentBranch === "Mining" && currentGraduation === "MTech") {
-      setBranch("MINING ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/btmining.png"
-      );
-      setPageContentTitle("M. Tech in Mining Engineering");
-      setBreadcrumbSubText("M. Tech in Mining Engineering");
-      setCourseDuration("2 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("M. TECH");
-      setContentComponent(<MTechInMining />);
-      setBrochureState(false);
-      setSidenavactiveitem(4);
-      setSidenavactivesubitem(2);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/CSE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/CSE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/CSE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ECE/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ECE/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ECE/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/ME/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/ME/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/Mining/BTech"
-            },
-            {
-              title: "M. Tech",
-              href: "/Mining/MTech"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -978,7 +231,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -996,117 +249,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    }
-    if (
-      currentBranch === "" &&
-      currentGraduation === "btech_in_computer_science_engineering"
-    ) {
-      setBranch("COMPUTER SCIENCE ENGINEERING");
-      setBannerImage(btechcsebanner);
-      setPageContentTitle(<h1>B. Tech. in Computer Science Engineering</h1>);
-      setBreadcrumbSubText("B. Tech in Computer Science Engineering");
-      setCourseDuration("4 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("B. TECH");
-      setContentComponent(
-        <>
-          <BTechInCSE />
-        </>
-      );
-      setBrochureState(true);
-      setSidenavactiveitem(1);
-      setSidenavactivesubitem(1);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech_in_computer_science_engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-computer-science-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-electronics-communications-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-electronics-communication-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mechanical-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-mechanical-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mining-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-degree-in-mining-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -1204,7 +347,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -1222,123 +365,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } 
-    if (
-      currentBranch === "" &&
-      currentGraduation === "btech_in_electronics_communications_engineering"
-    ) {
-      setBranch("ELECTRONICS AND COMMUNICATION ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/B-Tech-in-Electronics-_-Communication-Engineering.jpg"
-      );
-      setPageContentTitle(
-        <h1>B.Tech in Electronics Communications Engineering</h1>
-      );
-      setBreadcrumbSubText(
-        "B. Tech in Electronics and Communication Engineering"
-      );
-      setCourseDuration("4 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("B. TECH");
-      setContentComponent(
-        <>
-          <BTechInECE />
-        </>
-      );
-      setBrochureState(true);
-      setSidenavactiveitem(2);
-      setSidenavactivesubitem(1);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-computer-science-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-computer-science-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech_in_electronics_communications_engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-electronics-communication-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mechanical-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-mechanical-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mining-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-degree-in-mining-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -1431,7 +458,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -1449,118 +476,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (
-      currentBranch === "" &&
-      currentGraduation === "btech_in_mechanical_engineering"
-    ) {
-      setBranch("MECHANICAL ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/B-Tech-in-Mechanical-Engineering.jpg"
-      );
-      setPageContentTitle(<h1>B.Tech in Mechanical Engineering</h1>);
-      setBreadcrumbSubText("B. Tech in Mechanical Engineering");
-      setCourseDuration("4 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("B. TECH");
-      setContentComponent(
-        <>
-          <BTechInME />
-        </>
-      );
-      setBrochureState(true);
-      setSidenavactiveitem(3);
-      setSidenavactivesubitem(1);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-computer-science-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-computer-science-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-electronics-communications-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-electronics-communication-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech_in_mechanical_engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-mechanical-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mining-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-degree-in-mining-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -1653,7 +569,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -1671,118 +587,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (
-      currentBranch === "" &&
-      currentGraduation === "btech_in_mining_engineering"
-    ) {
-      setBranch("MINING ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/btmining.png"
-      );
-      setPageContentTitle(<h1>B.Tech in Mining Engineering </h1>);
-      setBreadcrumbSubText("B. Tech in Mining Engineering");
-      setCourseDuration("4 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("B. TECH");
-      setContentComponent(
-        <>
-          <BTechInMining />
-        </>
-      );
-      setBrochureState(true);
-      setSidenavactiveitem(4);
-      setSidenavactivesubitem(1);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-computer-science-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-computer-science-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-electronics-communications-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-electronics-communication-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mechanical-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-mechanical-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech_in_mining_engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-degree-in-mining-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -1869,7 +674,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -1887,112 +692,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (
-      currentBranch === "" &&
-      currentGraduation === "mtech_in_computer_science_engineering"
-    ) {
-      setBranch("COMPUTER SCIENCE ENGINEERING");
-      setBannerImage(mtechcsebanner);
-      setPageContentTitle(<h1>M. Tech. in Computer Science Engineering</h1>);
-      setBreadcrumbSubText("M. Tech in Computer Science Engineering");
-      setCourseDuration("2 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("M. TECH");
-      setContentComponent(<MTechInCSE />);
-      setBrochureState(false);
-      setSidenavactiveitem(1);
-      setSidenavactivesubitem(2);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-computer-science-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech_in_computer_science_engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-electronics-communications-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-electronics-communication-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mechanical-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-mechanical-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mining-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-degree-in-mining-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -2085,7 +785,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -2103,118 +803,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (
-      currentBranch === "" &&
-      currentGraduation === "mtech-in-electronics-communication-engineering"
-    ) {
-      setBranch("ELECTRONICS AND COMMUNICATION ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/B-Tech-in-Electronics-_-Communication-Engineering.jpg"
-      );
-      setPageContentTitle(
-        <h1>M.Tech in Electronics Communications Engineering</h1>
-      );
-      setBreadcrumbSubText(
-        "M. Tech in Electronics and Communication Engineering"
-      );
-      setCourseDuration("2 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("M. TECH");
-      setContentComponent(<MTechInECE />);
-      setBrochureState(false);
-      setSidenavactiveitem(3);
-      setSidenavactivesubitem(2);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-computer-science-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-computer-science-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-electronics-communications-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-electronics-communication-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mechanical-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-mechanical-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mining-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-degree-in-mining-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -2303,7 +892,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -2321,114 +910,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (
-      currentBranch === "" &&
-      currentGraduation === "mtech_in_mechanical_engineering"
-    ) {
-      setBranch("MECHANICAL ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/M-Tech-in-Mechanical-Engineering.jpg"
-      );
-      setPageContentTitle(<h1>M.Tech in Mechanical Engineering</h1>);
-      setBreadcrumbSubText("M. Tech in Mechanical Engineering");
-      setCourseDuration("2 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("M. TECH");
-      setContentComponent(<MTechInME />);
-      setBrochureState(false);
-      setSidenavactiveitem(3);
-      setSidenavactivesubitem(2);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-computer-science-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-computer-science-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-electronics-communications-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-electronics-communication-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mechanical-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech_in_mechanical_engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mining-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-degree-in-mining-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -2517,7 +999,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -2535,7 +1017,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -2555,220 +1037,12 @@ const Course = (props) => {
           href: "/Mathematics"
         }
       ]);
-    } else if (
-      currentBranch === "" &&
-      currentGraduation === "mtech_degree_in_mining_engineering"
-    ) {
-      setBranch("MINING ENGINEERING");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/btmining.png"
-      );
-      setPageContentTitle(<h1>M.Tech in Mining Engineering </h1>);
-      setBreadcrumbSubText("M. Tech in Mining Engineering");
-      setCourseDuration("2 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("M. TECH");
-      setContentComponent(<MTechInMining />);
-      setBrochureState(false);
-      setSidenavactiveitem(4);
-      setSidenavactivesubitem(2);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-computer-science-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-computer-science-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-electronics-communications-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-electronics-communication-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mechanical-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-mechanical-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mining-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech_degree_in_mining_engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (currentBranch === "CSE" && currentGraduation === "Ph.D") {
-      setBranch("COMPUTER SCIENCE ENGINEERING");
-      setBannerImage(mtechcsebanner);
-      setPageContentTitle("PhD in Computer Science Engineering (CSE)");
-      setBreadcrumbSubText("PhD in Computer Science Engineering");
-      setCourseDuration("3-5 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("Ph.D");
-      setContentComponent(<PhDInCSE />);
-      setBrochureState(false);
-      setSidenavactiveitem(1);
-      setSidenavactivesubitem(3);
-      setSchoolType("Engineering");
-      setSideNavList([
-        {
-          expandable: true,
-          item: "Computer Science And Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-computer-science-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-computer-science-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Electronics Communication Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-electronics-communications-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-electronics-communication-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mechanical Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mechanical-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-in-mechanical-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/ME/PhD"
-            }
-          ]
-        },
-        {
-          expandable: true,
-          item: "Mining Engineering",
-          subitems: [
-            {
-              title: "B. Tech",
-              href: "/btech-in-mining-engineering"
-            },
-            {
-              title: "M. Tech",
-              href: "/mtech-degree-in-mining-engineering"
-            },
-            {
-              title: "Ph.D",
-              href: "/Mining/PhD"
-            }
-          ]
-        },
-        {
-          expandable: false,
-          item: "PHYSICS",
-          href: "/Physics"
-        },
-        {
-          expandable: false,
-          item: "CHEMISTRY",
-          href: "/Chemistry"
-        },
-        {
-          expandable: false,
-          item: "MATHEMATICS",
-          href: "/Mathematics"
-        }
-      ]);
-    } else if (currentBranch === "ECE" && currentGraduation === "Ph.D") {
+    } else if (currentBranch === "" && currentGraduation === "phD-in-electronics-and-communication-engineering") {
       setBranch("ELECTRONICS AND COMMUNICATION ENGINEERING");
       setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/PhD-in-Electronics-&-Communication-Engineering.jpg"
+        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/B-Tech-in-Electronics-_-Communication-Engineering.jpg"
       );
+      // setBannerImage(mtechcsebanner);
       setPageContentTitle(
         "PhD in Electronics and Communication Engineering (ECE)"
       );
@@ -2814,7 +1088,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/phD-in-computer-science-engineering"
+              href: "/phD-in-electronics-and-communication-engineering"
             }
           ]
         },
@@ -2832,7 +1106,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -2850,7 +1124,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -2870,12 +1144,15 @@ const Course = (props) => {
           href: "/Mathematics"
         }
       ]);
-    } else if (currentBranch === "ME" && currentGraduation === "Ph.D") {
+    } else if (currentBranch === "" && currentGraduation === "phD-in-mechanical-engineering") {
       setBranch("MECHANICAL ENGINEERING");
+      // setBannerImage(
+      //   "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/phD-in-mechanical-engineering.jpg?var=1"
+      // );
       setBannerImage(
         "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/PhD-in-Mechanical-Engineering.jpg?var=1"
       );
-      setPageContentTitle("PhD in Mechanical Engineering (ECE)");
+      setPageContentTitle("PhD in Mechanical Engineering (ME)");
       setBreadcrumbSubText("PhD in Mechanical Engineering");
       setCourseDuration("3-5 Years");
       setCourseType("Residential (Optional)");
@@ -2936,7 +1213,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -2954,7 +1231,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -2974,12 +1251,12 @@ const Course = (props) => {
           href: "/Mathematics"
         }
       ]);
-    } else if (currentBranch === "Mining" && currentGraduation === "Ph.D") {
+    } else if (currentBranch === "" && currentGraduation === "phD-in-mining-engineering") {
       setBranch("MINING ENGINEERING");
       setBannerImage(
         "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/images/course/PhD-in-Mining-Engineering.jpg"
       );
-      setPageContentTitle("PhD in Mining Engineering (ECE)");
+      setPageContentTitle("PhD in Mining Engineering (ME)");
       setBreadcrumbSubText("PhD in Mining Engineering");
       setCourseDuration("3-5 Years");
       setCourseType("Residential (Optional)");
@@ -3040,7 +1317,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -3058,7 +1335,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -3142,7 +1419,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -3160,7 +1437,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -3244,7 +1521,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -3262,7 +1539,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -3346,7 +1623,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/ME/PhD"
+              href: "/phD-in-mechanical-engineering"
             }
           ]
         },
@@ -3364,7 +1641,7 @@ const Course = (props) => {
             },
             {
               title: "Ph.D",
-              href: "/Mining/PhD"
+              href: "/phD-in-mining-engineering"
             }
           ]
         },
@@ -3413,35 +1690,6 @@ const Course = (props) => {
           href: "/master-business-administrations"
         }
       ]);
-    } else if (
-      currentGraduation === "bachelor_business_administration_course_degree"
-    ) {
-      setBranch("BUSINESS ADMISTRATION");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/sub7.jpg"
-      );
-      setPageContentTitle(<h1>BACHELOR OF BUSINESS ADMINISTRATION (BBA)</h1>);
-      setBreadcrumbSubText("BBA");
-      setCoursedurationstate(true);
-      setCourseDuration("3 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("BACHELOR OF");
-      setContentComponent(<BBA />);
-      setBrochureState(false);
-      setSidenavactiveitem(1);
-      setSchoolType("Management");
-      setSideNavList([
-        {
-          expandable: false,
-          item: "BACHELOR OF BUSINESS ADMINISTRATION",
-          href: "/bachelor_business_administration_course_degree"
-        },
-        {
-          expandable: false,
-          item: "MASTER OF BUSINESS ADMINISTRATION",
-          href: "/master-business-administrations"
-        }
-      ]);
     } else if (currentGraduation === "master-business-administrations") {
       setBranch("BUSINESS ADMISTRATION");
       setBannerImage(
@@ -3466,91 +1714,10 @@ const Course = (props) => {
         {
           expandable: false,
           item: "MASTER OF BUSINESS ADMINISTRATION",
-          href: "/MBA"
+          href: "/master-business-administrations"
         }
       ]);
-    } else if (currentGraduation === "master_business_administrations") {
-      setBranch("BUSINESS ADMISTRATION");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/sub8.jpg"
-      );
-      setPageContentTitle(<h1>MASTER OF BUSINESS ADMINISTRATION (MBA)</h1>);
-      setBreadcrumbSubText("MBA");
-      setCoursedurationstate(true);
-      setCourseDuration("2 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("MASTER OF");
-      setContentComponent(<MBA />);
-      setBrochureState(false);
-      setSidenavactiveitem(2);
-      setSchoolType("Management");
-      setSideNavList([
-        {
-          expandable: false,
-          item: "BACHELOR OF BUSINESS ADMINISTRATION",
-          href: "/bachelor-business-administration-course-degree"
-        },
-        {
-          expandable: false,
-          item: "MASTER OF BUSINESS ADMINISTRATION",
-          href: "/master_business_administrations"
-        }
-      ]);
-    } else if (currentGraduation === "BBA") {
-      setBranch("BUSINESS ADMISTRATION");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/sub7.jpg"
-      );
-      setPageContentTitle("BACHELOR OF BUSINESS ADMINISTRATION (BBA)");
-      setBreadcrumbSubText("BBA");
-      setCoursedurationstate(true);
-      setCourseDuration("3 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("BACHELOR OF");
-      setContentComponent(<BBA />);
-      setBrochureState(false);
-      setSidenavactiveitem(1);
-      setSchoolType("Management");
-      setSideNavList([
-        {
-          expandable: false,
-          item: "BACHELOR OF BUSINESS ADMINISTRATION",
-          href: "/BBA"
-        },
-        {
-          expandable: false,
-          item: "MASTER OF BUSINESS ADMINISTRATION",
-          href: "/MBA"
-        }
-      ]);
-    } else if (currentGraduation === "MBA") {
-      setBranch("BUSINESS ADMISTRATION");
-      setBannerImage(
-        "https://spsuwebsiteassets.s3.ap-south-1.amazonaws.com/frontend_assets/sub8.jpg"
-      );
-      setPageContentTitle("MASTER OF BUSINESS ADMINISTRATION (MBA)");
-      setBreadcrumbSubText("MBA");
-      setCoursedurationstate(true);
-      setCourseDuration("2 Years");
-      setCourseType("Residential (Optional)");
-      setGraduation("MASTER OF");
-      setContentComponent(<MBA />);
-      setBrochureState(false);
-      setSidenavactiveitem(2);
-      setSchoolType("Management");
-      setSideNavList([
-        {
-          expandable: false,
-          item: "BACHELOR OF BUSINESS ADMINISTRATION",
-          href: "/BBA"
-        },
-        {
-          expandable: false,
-          item: "MASTER OF BUSINESS ADMINISTRATION",
-          href: "/MBA"
-        }
-      ]);
-    }
+    } 
   }, []);
   
   return (

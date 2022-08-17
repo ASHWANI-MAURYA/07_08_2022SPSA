@@ -62,7 +62,7 @@ const Whitebar = () => {
             </ul>
             {/* <input placeholder="Search..." className="search-input desktop"/> */}
             {/* <img src={search} className="header-search-logo desktop" /> */}
-            <a target="_blank" href="https://admissions.spsu.ac.in" rel="noreferrer">
+            <a target="_blank" href="https://apply.spsu.ac.in" rel="noreferrer">
               <button className="desktop button-white-apply-now header-apply-now">APPLY NOW</button>  
             </a>
             <img

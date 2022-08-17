@@ -44,7 +44,7 @@ const ContactUs = () => {
             </div>
 
             <div className="contactus-social-media-logos">
-              <a href="https://www.facebook.com/spsuudaipurindia">
+              <a href="https://www.facebook.com/spsuofficial">
                 <img
                   alt="facebook"
                   src={facebook}
@@ -58,7 +58,7 @@ const ContactUs = () => {
                   className="social-media-logo"
                 />
               </a>
-              <a href="https://www.youtube.com/channel/UCtfSS5zZLa3SHQoBcCdHCcg">
+              <a href="https://www.youtube.com/channel/UC8obPl4D4BCLGEmu9ynvw0Q/featured">
                 <img
                   alt="youtube"
                   src={youtube}

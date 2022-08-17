@@ -103,7 +103,7 @@ const MobileNavBar = (props) => {
                             M.Tech
                           </div>
                         </a>
-                        <a href="/ECE/PhD">
+                        <a href="/phD-in-electronics-and-communication-engineering">
                           <div className="accordion-button not-expandable">
                             Ph.D
                           </div>
@@ -125,7 +125,7 @@ const MobileNavBar = (props) => {
                             M.Tech
                           </div>
                         </a>
-                        <a href="/ME/PhD">
+                        <a href="/phD-in-mechanical-engineering">
                           <div className="accordion-button not-expandable">
                             Ph.D
                           </div>
@@ -147,7 +147,7 @@ const MobileNavBar = (props) => {
                             M.Tech
                           </div>
                         </a>
-                        <a href="/Mining/PhD">
+                        <a href="/phD-in-mining-engineering">
                           <div className="accordion-button not-expandable">
                             Ph.D
                           </div>

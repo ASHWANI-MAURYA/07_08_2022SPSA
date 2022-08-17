@@ -111,7 +111,7 @@ class Programs extends React.Component {
                               {
                                 subtitle:
                                   "Mechanical Engineering (Cement Technology) with JK Cement, FLSmidth and Beumer Group",
-                                href: "/ME/BTech"
+                                href: "/btech-in-mechanical-engineering"
                               },
                               {
                                 subtitle: "Mining (Advanced Mining Technology) with Gainwell",
@@ -133,11 +133,11 @@ class Programs extends React.Component {
                               },
                               {
                                 subtitle: "Mechanical Engineering",
-                                href: "/ME/MTech"
+                                href: "/mtech-in-mechanical-engineering"
                               },
                               {
                                 subtitle: "Mining Engineering",
-                                href: "/Mining/MTech"
+                                href: "/mtech-degree-in-mining-engineering"
                               }
                             ]
                           },
@@ -150,15 +150,15 @@ class Programs extends React.Component {
                             {
                               subtitle:
                                 "Electronics & Communication Engineering",
-                              href: "/ECE/PhD"
+                              href: "/phD-in-electronics-and-communication-engineering"
                             },
                             {
                               subtitle: "Mechanical Engineering",
-                              href: "/ME/PhD"
+                              href: "/phD-in-mechanical-engineering"
                             },
                             {
                               subtitle: "Mining Engineering",
-                              href: "/Mining/PhD"
+                              href: "/phD-in-mining-engineering"
                             }]
                           }
                         ]}
