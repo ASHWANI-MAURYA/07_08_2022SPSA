@@ -6,11 +6,10 @@ const EligibilityCriteria = () => {
         <h6 className="eligibility-title">Eligibility Criteria</h6>
         <ul>
           <li>
-          Pass in 10+2 in Science, Arts or Commerce from a recognised board (Preferably above 60%).
+          Passed XII std or its equivalent examination and obtained at least 50 % marks (at least 40 % marks, in case of Backward Class categories, Economically Weaker Section and Persons with Disability)
           </li>
           <li>
-            Eligibility for Admission: Admission to all SPSU Programmes will be
-            through SPSAT.
+          Candidate must have passed XII std. or its equivalent position
           </li>
         </ul>
       </div>

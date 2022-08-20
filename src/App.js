@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Homepage from "./components/mainpage/Homepage";
 import VisionPage from "./components/aboutus/VisionPage";
 import Course from "./components/courses/Course";
@@ -37,6 +37,32 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route path="/CSE/BTech" element={<Navigate to="/btech-in-computer-science-engineering" />} />
+          <Route path="/btech_in_computer_science_engineering" element={<Navigate to="/btech-in-computer-science-engineering" />} />
+          <Route path="/CSE/Mtech" element={<Navigate to="/mtech-in-computer-science-engineering" />} />
+          <Route path="/Mtech_in_computer_science_engineering" element={<Navigate to="/mtech-in-computer-science-engineering" />} />
+          <Route path="/ECE/BTech" element={<Navigate to="/btech-in-electronics-communications-engineering" />} />
+          <Route path="/btech_in_electronics_communications_engineering" element={<Navigate to="/btech-in-electronics-communications-engineering" />} />
+          <Route path="/ECE/MTech" element={<Navigate to="/mtech-in-electronics-communication-engineering" />} />
+          <Route path="/mtech_in_electronics_communication_engineering" element={<Navigate to="/mtech-in-electronics-communication-engineering" />} />
+          <Route path="/ME/BTech" element={<Navigate to="/btech-in-mechanical-engineering" />} />
+          <Route path="/btech_in_mechanical_engineering" element={<Navigate to="/btech-in-mechanical-engineering" />} />
+          <Route path="/ME/MTech" element={<Navigate to="/mtech-in-mechanical-engineering" />} />
+          <Route path="/Mtech_in_mechanical_engineering" element={<Navigate to="/mtech-in-mechanical-engineering" />} />
+          <Route path="/Mining/BTech" element={<Navigate to="/btech-in-mining-engineering" />} />
+          <Route path="/btech_in_mining_engineering" element={<Navigate to="/btech-in-mining-engineering" />} />
+          <Route path="/Mining/MTech" element={<Navigate to="/mtech-degree-in-mining-engineering" />} />
+          <Route path="/mtech_degree_in_mining_engineering" element={<Navigate to="/mtech-degree-in-mining-engineering" />} />
+          <Route path="/BBA" element={<Navigate to="/bachelor-business-administration-course-degree" />} />
+          <Route path="/bachelor_business_administration_course_degree" element={<Navigate to="/bachelor-business-administration-course-degree" />} />
+          <Route path="/MBA" element={<Navigate to="/master-business-administrations" />} />
+          <Route path="/mater_business_administrations" element={<Navigate to="/master-business-administrations" />} />
+          <Route path="/about_university" element={<Navigate to="/about-university" />} />
+          <Route path="/AboutUs/AboutUniversity" element={<Navigate to="/about-university" />} />
+          <Route path="/CSE/PhD" element={<Navigate to="/phD-in-computer-science-engineering" />} />
+          <Route path="/ECE/PhD" element={<Navigate to="/phD-in-electronics-and-communication-engineering" />} />
+          <Route path="/ME/PhD" element={<Navigate to="/phD-in-mechanical-engineering" />} />
+          <Route path="/Mining/PhD" element={<Navigate to="/phD-in-mining-engineering" />} />
           <Route path="/" element={<Homepage />} />
           {/* <Route path="/rinku" element={<Homepage />} /> */}
           <Route
@@ -137,9 +163,7 @@ const App = () => {
           />
           <Route path="/ExamResult" element={<ExamResult />} exact />
           <Route path="/Rainbow" element={<Rainbow />} exact />
-          <Route path="/about_university" element={<AboutUniversity />} exact />
           <Route path="/about-university" element={<AboutUniversity />} exact />
-          <Route path="/AboutUs/AboutUniversity" element={<AboutUniversity />} exact />
         </Routes>
       </BrowserRouter>
     </div>

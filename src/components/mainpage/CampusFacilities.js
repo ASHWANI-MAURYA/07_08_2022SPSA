@@ -51,8 +51,7 @@ const CampusFacilities = () => {
             <p className="facilities-desc">
               SPSU has been ranked as the{" "}
               <b>No. 1 university in the Mewar region.</b> It is ranked{" "}
-              <b>4th in Rajasthan and 23rd in India by EW Ranking 2022</b> among
-              leading private engineering and technology universities.
+              <b>4th in Rajasthan and 23rd in India by EW Ranking 2022.</b>  SPSU has been awarded Diamond Band Rating with A+ Grade in the OBE World rankings 2022.
             </p>
           </div>
           <div className="facilities">

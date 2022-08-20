@@ -6,12 +6,11 @@ const EligibilityCriteria = () => {
         <h6 className="eligibility-title">Eligibility Criteria</h6>
         <ul>
           <li>
-            10+2 with minimum 50% Marks in Physics, Mathematics along with
-            Chemistry/ Biotechnology/ Computer Science as one of the subjects.
+          Passed XII std or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical Vocational subject or Computer Science or Information Technology or Informatics Practices or Agriculture or Engineering Graphics or Business Studies and obtained at least 50 % marks (at least 40 % marks, in case of Backward Class categories, Economically Weaker Section and Persons with Disability) in the above subjects taken together
           </li>
           <li>
-            Eligibility for Admission: Admission to all SPSU Programmes will be
-            through SPSAT.
+          Candidate must have qualified JEE (Main) B.E./B.Tech 2022 or 
+           SPSAT 2022 
           </li>
         </ul>
       </div>

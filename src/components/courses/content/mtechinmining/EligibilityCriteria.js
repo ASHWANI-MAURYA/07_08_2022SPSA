@@ -6,13 +6,10 @@ const EligibilityCriteria = () => {
         <h6 className="eligibility-title">Eligibility Criteria</h6>
         <ul>
           <li>
-            Bachelor&apos;s degree in Mining Engineering or
-            equivalent as a regular
-            student from recognized University.
+          Passed or appeared for final year examination bachelor&apos;s degree in the relevant field of Engineering and Technology from University recognised by UGC, with at least 50% marks (at least 40% marks in case of candidates of Backward class categories and persons with disability)
           </li>
           <li>
-            Eligibility for Admission: Admission to all SPSU Programmes will be
-            through SPSAT.
+          Candidate must have qualified GATE 2022 or SPSAT 2022
           </li>
         </ul>
       </div>

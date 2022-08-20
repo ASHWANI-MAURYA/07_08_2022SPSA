@@ -6,11 +6,11 @@ const EligibilityCriteria = () => {
         <h6 className="eligibility-title">Eligibility Criteria</h6>
         <ul>
           <li>
-          Post-graduate degree (preferably in the discipline concerned) from a recognized university with 55% marks
+            Passed or appeared for final year examination master’s degree in the relevant field of Engineering and Technology from University recognised by UGC, with at least 55% marks (at least 40% marks in case of candidates of Backward class categories and persons with disability)
           </li>
           <li>
-            Eligibility for Admission: Admission to all SPSU Programmes will be
-            through SPSAT.
+            Candidate must have qualified UGC NET or SPSU Selection Test
+            (NET qualified candidates will be exempted from SPSU Selection Test)
           </li>
         </ul>
       </div>

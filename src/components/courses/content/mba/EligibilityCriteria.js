@@ -6,11 +6,10 @@ const EligibilityCriteria = () => {
         <h6 className="eligibility-title">Eligibility Criteria</h6>
         <ul>
           <li>
-          Graduation in any discipline (Preferably above 60%).
+          Passed or appeared for final year examination of minimum Three-year Duration Bachelor’s Degree from University recognised by UGC, in any discipline with at least 50% marks in aggregate or equivalent (at least 40% in case of candidates of backward class categories,Economically Weaker Section and Persons with Disability) 
           </li>
           <li>
-            Eligibility for Admission: Admission to all SPSU Programmes will be
-            through SPSAT.
+          Candidate must have qualified CAT, MAT, XAT, CMAT, GMAT, NMAT or SPSAT 2022 or any equivalent state level entrance exam conducted for MBA Program
           </li>
         </ul>
       </div>
