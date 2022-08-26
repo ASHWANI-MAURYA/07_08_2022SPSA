@@ -16,6 +16,7 @@ const BTechInME = () => {
           name="keywords"
           content="b.tech mechanical engineering colleges in rajasthan"
         />
+        <link rel="canonical" href="https://www.spsu.ac.in/btech-in-mechanical-engineering" />
       </Helmet>
       <IconTabBar
         tabs={[

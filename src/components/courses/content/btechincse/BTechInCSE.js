@@ -18,7 +18,7 @@ const BTechInCSE = () => {
           content="computer science engineering college in Rajasthan
           best engineering colleges in rajasthan for cse"
         />
-        <link rel="canonical" href="https://spsu.ac.in/btech-in-computer-science-engineering"></link>
+        <link rel="canonical" url="/btech-in-computer-science-engineering"/>
       </Helmet>
       <IconTabBar
         tabs={[

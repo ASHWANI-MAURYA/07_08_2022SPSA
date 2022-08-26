@@ -18,7 +18,7 @@ const BBA = () => {
           name="keywords"
           content="bba colleges in rajasthan
           best management colleges in udaipur"
-        />
+        /><link rel="canonical" href="https://www.spsu.ac.in/bachelor-business-administration-course-degree" />
       </Helmet>
     <IconTabBar
         tabs={[

@@ -25,6 +25,7 @@ const AboutUniversity = () => {
           content="JK Cement University
           best university in mewar"
         />
+        <link rel="canonical" href="https://www.spsu.ac.in/about-university" />
       </Helmet>
       <Greybar />
       <Whitebar />

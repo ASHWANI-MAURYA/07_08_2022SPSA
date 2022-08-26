@@ -14,6 +14,7 @@ const MTechInME = () => {
           name="keywords"
           content="best mechanical engineering colleges in rajasthan"
         />
+        <link rel="canonical" href="https://www.spsu.ac.in/mtech-in-mechanical-engineering" />
       </Helmet>
       <General />
       <ProgrammeObjectives />

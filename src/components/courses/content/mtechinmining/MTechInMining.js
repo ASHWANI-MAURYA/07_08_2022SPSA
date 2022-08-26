@@ -14,6 +14,7 @@ const MTechInMining = () => {
           name="keywords"
           content="mining engineering colleges in rajasthan"
         />
+        <link rel="canonical" href="https://www.spsu.ac.in/mtech-degree-in-mining-engineering" />
       </Helmet>
       <General />
       <ProgrammeObjectives />

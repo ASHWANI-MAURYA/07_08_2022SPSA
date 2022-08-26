@@ -19,6 +19,7 @@ const MBA = () => {
           content="mba colleges in udaipur
           best management colleges in udaipur"
         />
+        <link rel="canonical" href="https://www.spsu.ac.in/master-business-administrations" />
       </Helmet>
     <IconTabBar
         tabs={[

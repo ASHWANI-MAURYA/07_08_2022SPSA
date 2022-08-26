@@ -15,6 +15,7 @@ const MTechInCSE = () => {
           name="keywords"
           content="m.tech computer science engineering college in Rajasthan"
         />
+        <link rel="canonical" href="https://www.spsu.ac.in/mtech-in-computer-science-engineering" />
       </Helmet>
       <General />
       <ProgrammeObjectives />

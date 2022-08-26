@@ -31,6 +31,7 @@ const Homepage = () => {
           content="best engineering colleges in rajasthan
           best M tech colleges in rajasthan"
         />
+        <link rel="canonical" href="https://spsu.ac.in/"/>
       </Helmet>
       <Greybar />
       <Whitebar />

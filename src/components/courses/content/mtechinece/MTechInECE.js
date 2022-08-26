@@ -14,6 +14,7 @@ const MTechInECE = () => {
           name="keywords"
           content="M.Tech Electronics Communications Engineering"
         />
+        <link rel="canonical" href="https://www.spsu.ac.in/mtech-in-electronics-communication-engineering" />
       </Helmet>
       <General />
       <ProgrammeObjectives />

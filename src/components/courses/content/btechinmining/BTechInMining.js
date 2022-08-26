@@ -15,6 +15,7 @@ const BTechInMining = () => {
           name="keywords"
           content="b.tech mining engineering colleges in rajasthan"
         />
+        <link rel="canonical" href="https://www.spsu.ac.in/btech-in-mining-engineering" />
       </Helmet>
       <IconTabBar
         tabs={[

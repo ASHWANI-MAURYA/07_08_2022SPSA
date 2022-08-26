@@ -17,6 +17,7 @@ const BTechInECE = () => {
           name="keywords"
           content="B.Tech Electronics Communications Engineering"
         />
+        <link rel="canonical" href="https://www.spsu.ac.in/btech-in-electronics-communications-engineering" />
       </Helmet>
       <IconTabBar
         tabs={[
