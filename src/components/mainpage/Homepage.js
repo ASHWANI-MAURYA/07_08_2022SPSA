@@ -19,19 +19,26 @@ import OverTheYears from "./OverTheYears";
 // import OurAdvisors from "./OurAdvisors";
 import Chatbot from "./chatbot/Chatbot";
 import { Helmet } from "react-helmet";
-
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import { Carousel } from 'react-responsive-carousel';
+// import Carousel from "react-bootstrap/Carousel";
 const Homepage = () => {
   return (
     <>
       <Helmet>
-        <title>Best MBA & Engineering College in Rajasthan | JK Cement&apos;s SPSU</title>
-        <meta name="description" content="SPSU Udaipur ranks among Top 100 Universities in India: We are offering undergraduate, Ph.D., courses in Management (BBA/MBA) and Engineering (B.Tech/M.Tech). Visit to know more." />
+        <title>
+          Best MBA & Engineering College in Rajasthan | JK Cement&apos;s SPSU
+        </title>
+        <meta
+          name="description"
+          content="SPSU Udaipur ranks among Top 100 Universities in India: We are offering undergraduate, Ph.D., courses in Management (BBA/MBA) and Engineering (B.Tech/M.Tech). Visit to know more."
+        />
         <meta
           name="keywords"
           content="best engineering colleges in rajasthan
           best M tech colleges in rajasthan"
         />
-        <link rel="canonical" href="https://spsu.ac.in/"/>
+        <link rel="canonical" href="https://spsu.ac.in/" />
       </Helmet>
       <Greybar />
       <Whitebar />
@@ -146,7 +153,7 @@ const Homepage = () => {
       <Placements />
       <Recruiters />
       {/* <OurAdvisors /> */}
-      <CampusAmenities /> 
+      <CampusAmenities />
       <NewsUpdates
         spsuData={[
           {
@@ -156,7 +163,8 @@ const Homepage = () => {
             href: "RainbowConsortiumMeeting"
           },
           {
-            title: "Session on Career Opportunities in the Armed Forces held at SPSU on July 27, 2022",
+            title:
+              "Session on Career Opportunities in the Armed Forces held at SPSU on July 27, 2022",
             timeago: "A WEEK AGO",
             desc: "Colonel Sanjay Sinha, Head - Education Vertical, JK Cement Ltd delivered a session on ‘Career Opportunities in the Armed Forces’...",
             href: "CareerOpportunities"
